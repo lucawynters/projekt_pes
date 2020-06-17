@@ -110,6 +110,7 @@ const data = [
         🚋 Vozovna Kobylisy`,
       },
       {
+        id: "meandry-botice",
         name: "Přírodní památka Meandry Botiče",
         district: "Praha 10",
         description: "Botič je jedním z nejdelších pražských potoků. A jak už název napovídá, vytváří meandry. A kolem nich se můžete procházet, obdivovat staré olše a poslouchat trilkování ohrožených druhů ptáků. Bohužel díky blízkosti městské zástavby se tahle přírodní památka potýká s odpadky a znečištěním. Ale to nás přece neodradí. Do jedné ruky psa, do druhé igelitku a hurá toho trošku posbírat a ulevit tak přírodě. Procházka a dobrý skutek v jednom. Karma vás za to jistě odmění.",
@@ -118,6 +119,7 @@ const data = [
       },
 
       {
+        id: "hostivar-zabehlice",
         name: "Přírodní park Hostivař-Záběhlice",
         district: "Praha 11",
         description: "Hostivařský lesopark s přehradou je jednou z nejvýznamnějších rekreačních lokalit na území hlavního města. Navazuje na přírodní památku Meandry Botiče. Na placených plážích si dovolenkovou idylku se psem neužijete, ale na neoficiálních místech můžete hupsnout do vody společně. ",
@@ -126,6 +128,7 @@ const data = [
         Ⓜ️ Háje`,
       },
       {
+        id: "modranska-rokle",
         name: "Modřanská rokle",
         district: "Praha 12",
         description: "",
@@ -133,67 +136,77 @@ const data = [
         🚋 Modřanská rokle`,
       },
       {
+        id: "u-haju",
         name: "U Hájů",
         district: "Praha 13",
         description: "U Hájů je přírodní památka v mělkém zalesněném údolí s několika přilehlými loukami, které se rozkládá v pražské čtvrti Stodůlky mezi bývalou usedlostí Háje a náspem Buštěhradské železniční trati tzv. Pražským Semmeringem.",
         transport: `🚌 Za Mototechnou`,
       },
       {
+        id: "les-lehovec",
         name: "Les Lehovec",
         district: "Praha 14",
-        description: "",
+        description: "Méně známý pražský les (čtěte: nebude tam milión lidí) v blízkosti Kyjského rybníka. Je protkán sítí stezek pro příjemné a nerušené procházky",
         transport: `🚌 Sídliště Lehovec`,
       },
       {
+        id: "cihadla",
         name: "Lesopark Číhadla",
         district: "Praha 15",
-        description: "",
+        description: "Další z příjemných městských lesoparků dokonce hned se dvěma turistickými zajímavostmi. Tou první je nová rozhledna Doubravka, která se nachází na vrchu Horka (254 m n. m.). Ta je unikátní konstrukcí, použitými materiály, způsobem realizace i tím, že pochází z dílny světoznámého architekta Martina Rajniše. Druhou je pak suchý poldr Číhadla, který poskytuje iluzi procházky po severské přírodě. Aneb dovolená ve Skandinávii za cenu MHD jízdenky. Ding, ding, ding!",
         transport: `🚌 Kyje <br>
         🚂 Kyje`,
       },
 
       {
+        id: "chuchelsky-haj",
         name: "Chuchelský háj",
         district: "Praha 16",
-        description: "",
-        transport: `🚌 Solná`,
+        description: "I v Chuchli můžete jít do háje. Anebo radši do ZOO. Kromě krásné procházky tady totiž najdete lesní mini ZOO a taky krásnou louku se sportovním parkem. ",
+        transport: `🚌 Malá Chuchle / Velká Chuchle / Kazínská`,
       },
       {
+        id: "repy-motol",
         name: "Lesopark Řepy-Motol",
         district: "Praha 17",
-        description: "",
-        transport: `🚌 Krematorium Motol, Selských Baterií <br>
+        description: "Příjemný menší lesopark, kde si můžete po procházce zacvičit ve venkovním gymu, nebo posedět s přáteli na piknikovém spotu. Obojí zadarmo. V horní části lesoparku se nachází pláň, kde si to nejvíc užijou milovníci aportování. Ve východní části se můžete taky pokochat krásným výhledem na Prahu. Takže pokud se zrovna nacházíte v okolí Řep či Bílé Hory, určitě neváhejte s návštěvou.",
+        transport: `🚌 Krematorium Motol, Šedivého <br>
         🚋 Krematorium Motol / Bílá hora`,
       },
       {
+        id: "letnany",
         name: "Lesopark Letňany",
         district: "Praha 18",
         description: "",
         transport: `🚌 Kbelský lesopark`,
       },
       {
+        id: "vinor-satalice",
         name: "Vinořský park - Satalická bažantnice",
         district: "Praha 19",
         description: "",
         transport: `🚌 Vinořský zámek / Za Novákovou zahradou`,
       },
       {
+        id: "xaverovsky-haj",
         name: "Xaverovský háj",
         district: "Praha 20",
         description: "",
         transport: `🚌 Xaverov`,
       },
       {
+        id: "klanovicky-les",
         name: "Klánovický les",
         district: "Praha 21",
-        description: "dfadad",
+        description: "V Klánovickém lese narazíte kromě březových hájků, mokřadů a rybníčků také na pozůstatky středověkých vesniček. Navazuje na Xaverovský háj a osou jeho východní části je řeka Rokytka. Na procházku se můžete vydat po široké asfaltce, nebo se vydat některou z lesních pěšinek. Pozor na velký výskyt divokých prasat a poměrně frekventovanou Staroklánovickou, která k lesu zčásti přiléhá.",
         transport: `🚌 Újezd nad Lesy <br>
         🚂 Klánovice`,
       },
       {
+        id: "uhrineves",
         name: "Obora v Uhříněvsi",
         district: "Praha 22",
-        description: "",
+        description: "Uhříněvská obora v údolí Říčanského potoka je po právu přírodní památkou. Hnízdí tady spousta ohrožených ptáků a rostou tu památné duby. Na severozápadním okraji obory se nachází židovský hřbitov, takže sem radši nechoďte za šera 👻.",
         transport: `🚌 Uhříněves <br>
         🚂 Uhříněves`,
       },
