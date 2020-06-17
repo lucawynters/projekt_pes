@@ -2,43 +2,48 @@ const data = [
   {
     parky: [
       {
+        id: "petrinske-sady",
         name: "Petřínské sady",
         district: "Praha 1",
-        description: "",
+        description: "Hynku, Viléme, Jarmilo...! Petřín je bezesporu jedno z nejromantičtějších míst Prahy. Né nadarmo se sem chodí zamilované dvojice (nejen) 1. máje muchlovat pod rozkvetlé stromy. Nemáte dvouhnohý protějšek? Nevadí. Čapněte svého psího kamaráda a užijte si procházku spolu. Hlavní výhodou Petřínských sadů je skvělá dostupnost - nachází se přímo v centru Prahy. Další dobrou zprávou je, že si jejich návštěvu váš pejsek opravdu užije. Volně pobíhat totiž může na velké části plochy parku. Mrkněte na oficiální plánek.",
         transport:
           `🚋 Újezd / Malovanka <br>
         🚞 Lanová dráha Újezd - Petřín`,
       },
       {
+        id: "riegrovy-sady",
         name: "Riegrovy sady",
         district: "Praha 2",
-        description: "",
+        description: "Skvěle dostupný kus zeleně v srdci Vinohrad, ve kterém se můžete kochat výhledy na Prahu a svlažit žíznivé hrdlo v některé ze zdejších pivních zahrádek. Příznivcům volného pohybu psů však tento park příliš nedoporučujeme. Bez vodítka se tady totiž hafani vyřádí velmi omezeně. Navíc za hezkého počasí jsou cesty i louky velmi frekventované. Takže kdo nemá rád vodítka (a lidi), nechť zvolí raději některý z pražských lesů.",
         transport:
           `🚌 Na Smetance <br>
         🚋 Italská / Vinohradská <br>
         Ⓜ️ Náměstí Míru`,
       },
       {
+        id: "vitkov",
         name: "Vítkov",
         district: "Praha 3",
-        description: "",
+        description: "Vítkov je vrch rozdělující pražské čtvrti Karlín a Žižkov. Jeho hlavní dominantou je Národní památník a socha Jana Žižky na koni. Historické okénko: v době Husitské se zde odehrála bitva proti křižákům a za minulého režimu byli v Památníku pohřbíváni papalášové. Dneska už tady naštěstí nenajdete husity ani komunistické mumie, a tak si v klidu můžete vychutnat procházku přilehlým parkem. Pejsci se můžou volně proběhnout především na severu a jihozápadě. Plánek poví víc.",
         transport:
           `🚌 U Památníku / Tachovské nám. / Černínova / Ohrada<br> 
         🚋 Ohrada <br>
         Ⓜ️ Křižíkova`,
       },
       {
+        id: "kunraticko-michelsky-les",
         name: "Kunraticko-Michelský les",
         district: "Praha 4",
-        description: "",
+        description: "Tenhle les má hned několik různých názvů, což může být pro turisty (a náplavy) trošku matoucí. Většina pražáků mu nejspíš bude říkat Krčský les nebo Krčák, ale vžil se taky hovorový název Kunraťák. Oficiální název je však Kunraticko-michelský les, případně jen Kunratický nebo jen Michelský les. Ať už mu budeme říkat jakkoliv, jedná se o rozsáhlý komplex zeleně (300 ha), který za rok navštíví až 700 tisíc návštěvníků. ",
         transport:
           `🚌 U Labutě / IKEM / Zelené domky / <br> 
         `,
       },
       {
+        id: "kosire-motol",
         name: "Přírodní park Košíře-Motol",
         district: "Praha 5",
-        description: "",
+        description: "Tady si přijdou na své milovníci smíšených lesů a romantických zákoutí. Díky členitému terénu, pískovcovým útvarům a překrásným paloučkům se sametovou trávou si budete připadat jako v pohádce. Pokud navíc sejdete z poměrně frekventovaných hlavních cest, odpadne vám otravné vyhýbání se cyklistům, a dokonce se vám může poštěstit nepotkat vůbec nikoho. (Introverti 3x hurá). Srdcem přírodního parku je lesopark Cibulka, kde najdete pozoruhodné pozůstatky romantismu jako například Čínský pavilonek, umělou jeskyni či sochy antických bohů a bohyň. Cesty jsou navíc lemovány potůčky, takže psí žízeň (a čisté tlapky) rozhodně nehrozí.",
         transport:
           `🚌 Naskové, Šafránkova <br> 
         🚋 Vozovna Motol / Poštovka <br>
@@ -46,52 +51,68 @@ const data = [
         ,
       },
       {
+        id: "prokopsko-dalejske-udoli",
+        name: "Prokopsko-dalejské údolí",
+        district: "Praha 5",
+        description: "Středně velký přírodní park se rozprostírá na ploše 653 ha. Nachází se zde mnoho zvláště chráněných území. Zajímavostí jsou bohaté naleziště zkamenělin světového významu. V historii bylo území hustě osídleno. Nacházela se tu četná hradiště a dochovaly se důkazy o obydlení jeskyní.",
+        transport:
+          `🚌 Řeporyjské náměstí <br> 
+        🚂 Hlubočepy`
+        ,
+      },
+      {
+        id: "lysolaje-sarka",
         name: "Přírodní park Lysolaje-Šárka",
         district: "Praha 6",
-        description: "",
+        description: `Bez debat ten největší přírodní park v Praze. Přesněji řečeno přes tisíc hektarů zelené nádhery rozkládající se podél Šáreckého potoka. Tady to fakt vydá nejen na pořádnou procházku, ale klidně na celodenní výlet. Naštěstí se přímo po cestě nachází několik restaurací a dokonce tu najdete i koupaliště. To je ale bohužel dog unfriendly, stejně jako vodní nádrž Džbán a rybník Dubák. Jinak je to trasa malebná procházející údolími i kopci, které vás odmění nádherným výhledem.`,
         transport: `🚌 Nad Hrabovkou / Na Mlýnici / Dědina <br> 
         🚋 Divoká Šárka <br>
         Ⓜ️ Nádraží Veleslavín`,
       },
       {
+        id: "obora-hvezda",
         name: "Obora Hvězda",
         district: "Praha 6",
-        description: "",
+        description: "Rozlehlý park, který původně sloužil k povyražení a honům renesanční šlechty. Dnes už naštěstí nemusíte být šlechtici, abyste si jeho půvabů užili i vy. Hlavní dominantou je letohrádek Hvězda s věhlasným hexagramovým půdorysem. K němu se také sbíhají tři hlavní cesty. Na procházky s čtyřnohým doprovodem však doporučujeme se zatoulat po lesních stezkách a cestičkách. Volné pobíhání oficiálně není dovoleno, ale sami zjistíte, že mimo hlavní cesty tohle pravidlo nikdo nedodržuje.",
         transport: `🚌 Vypich / Ruzyňská / Sídliště Petřiny <br> 
         🚋 Vypich`,
       },
       {
+        id: "letenske-sady",
         name: "Letenské sady",
         district: "Praha 7",
-        description: "",
+        description: "Další z profláklých městských parků, do kterého pohodlně dojedete MHD. Začíná u holešovického výstaviště a táhne se na západ do Bubenče a na sever k plavebnímu kanálu Vltavy. Pejsky můžeme legálně pustit z vodítka mj. při jižním okraji a pak taky na západě podél Koňské stezky.  Nachází se tady dokonce i psí louka. Na přesné vymezení číhněte do plánku. Páníčci naopak jistě ocení několik podniků s občerstvením nebo některý z pěti gril spotů.",
         transport: `🚌 Naskové, Šafránkova <br> 
         🚋 Čechův most, Chotkovy sady, Sparta <br>
         Ⓜ️ Hradčanská`,
       },
       {
+        id: "stromovka",
         name: "Stromovka",
         district: "Praha 7",
-        description: "",
+        description: "Absolutní legendou a milovaným spotem všech pražáků i přespolních jsou rozhodně Letenské sady. Pokud přežijete návaly lidí, můžete si vychutnat nezapomenutelné výhledy na širší centrum Prahy a Vltavu. Bez vodítka to tady ale nedáte. Volné pobíhání je dovoleno pouze v pásu kolem řeky a v okrajových částech letenské pláně.",
         transport: `🚋 Výstaviště Holešovice`,
       },
       {
+        id: "drahan-troja",
         name: "Přírodní park Draháň-Troja",
         district: "Praha 8",
-        description: "",
+        description: "Přírodní park ležící na pravém svahu vltavského údolí. Táhne se podél řeky od Jabloňky po drahaňskou rokli pod Dolními Chabry. Jeho součástí je také Trojská kotlina s botanickou a zoologickou zahradou a řadou zvláště chráněných území. Do zoo vás btw pustí i s pejskem, ale jenom k venkovním výběhům a na vodítku.",
         transport: `🚌 Dolní Chabry / Bohnické údolí /Na Pazderce <br>
         🚋 Nad Trojou`,
       },
       {
+        id: "dablicky-haj",
         name: "Dáblický háj",
         district: "Praha 9",
-        description: "",
+        description: "Už vás někdo někdy poslal do háje? No super. Ideální příležitost navštívit ten ďáblický. (Pokud vás navíc poslali i k čertu, máte zabité dvě mouchy jednou ranou). A že to tam navíc není vůbec špatné se přesvědčíte vy i váš pes. Před 98 miliony let byste se tu mohli dokonce vykoupat v moři. Dnes už si přijdou na své spíš milovníci kopců. Najdete tu totiž vrch Ládví, který jeho 359 m. n. m. činí nevyšším vrcholem Prahy. A na něm taky geodetickou věžičku, ze které by se časem měla stát rozhledna. Zajímavostí je, že vrch byl pravděpodobně v dávných dobách mystickým a posvátným místem. Navzdory hustému osídlení v okolí (už z dob pravěku), se totiž přímo na kopci nenalezly vůbec žádné známky lidských obydí. Skrze háj vede žlutá a zelená turistická trasa.",
         transport: `🚌 Bojasova / Květnová <br>
         🚋 Vozovna Kobylisy`,
       },
       {
-        name: "Práče",
+        name: "Přírodní památka Meandry Botiče",
         district: "Praha 10",
-        description: "",
+        description: "Botič je jedním z nejdelších pražských potoků. A jak už název napovídá, vytváří meandry. A kolem nich se můžete procházet, obdivovat staré olše a poslouchat trilkování ohrožených druhů ptáků. Bohužel díky blízkosti městské zástavby se tahle přírodní památka potýká s odpadky a znečištěním. Ale to nás přece neodradí. Do jedné ruky psa, do druhé igelitku a hurá toho trošku posbírat a ulevit tak přírodě. Procházka a dobrý skutek v jednom. Karma vás za to jistě odmění.",
         transport: `🚌 Záběhlická škola / OC Hostivař / Pod Vinicí <br>
         🚋 Na Groši / Spořilov`,
       },
@@ -99,7 +120,7 @@ const data = [
       {
         name: "Přírodní park Hostivař-Záběhlice",
         district: "Praha 11",
-        description: "",
+        description: "Hostivařský lesopark s přehradou je jednou z nejvýznamnějších rekreačních lokalit na území hlavního města. Navazuje na přírodní památku Meandry Botiče. Na placených plážích si dovolenkovou idylku se psem neužijete, ale na neoficiálních místech můžete hupsnout do vody společně. ",
         transport: `🚌 Řepčická / Nové Petrovice /  <br>
         🚋 Hostivařská <br>
         Ⓜ️ Háje`,
@@ -114,7 +135,7 @@ const data = [
       {
         name: "U Hájů",
         district: "Praha 13",
-        description: "",
+        description: "U Hájů je přírodní památka v mělkém zalesněném údolí s několika přilehlými loukami, které se rozkládá v pražské čtvrti Stodůlky mezi bývalou usedlostí Háje a náspem Buštěhradské železniční trati tzv. Pražským Semmeringem.",
         transport: `🚌 Za Mototechnou`,
       },
       {
@@ -165,7 +186,7 @@ const data = [
       {
         name: "Klánovický les",
         district: "Praha 21",
-        description: "",
+        description: "dfadad",
         transport: `🚌 Újezd nad Lesy <br>
         🚂 Klánovice`,
       },
