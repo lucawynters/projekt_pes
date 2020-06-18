@@ -1,3 +1,3 @@
 <template>
-  <h1>riegače</h1>
+  <h1>homepage</h1>
 </template>

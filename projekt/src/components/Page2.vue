@@ -1,3 +1,3 @@
 <template>
-  <h1>Obora</h1>
+  <h1>petrinske sady</h1>
 </template>
