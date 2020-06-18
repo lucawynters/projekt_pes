@@ -2,7 +2,7 @@
   <div class="container">
     <router-link to="/page1">Go to Page 1</router-link>
     <router-link to="/page2">Go to Page 2</router-link>
-    <router-link to="/page3">Go to Page 3</router-link>
+    <!-- <router-link to="/page3">Go to Page 3</router-link>
     <router-link to="/page4">Go to Page 4</router-link>
     <router-link to="/page5">Go to Page 5</router-link>
     <router-link to="/page6">Go to Page 6</router-link>
@@ -23,7 +23,7 @@
     <router-link to="/page21">Go to Page 21</router-link>
     <router-link to="/page22">Go to Page 22</router-link>
     <router-link to="/page23">Go to Page 23</router-link>
-    <router-link to="/page24">Go to Page 24</router-link>
+    <router-link to="/page24">Go to Page 24</router-link>-->
 
     <h1>Vue router</h1>
     <router-view></router-view>

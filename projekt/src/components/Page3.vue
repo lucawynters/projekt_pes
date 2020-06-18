@@ -1,3 +1,0 @@
-<template>
-  <h1>riegače</h1>
-</template>
