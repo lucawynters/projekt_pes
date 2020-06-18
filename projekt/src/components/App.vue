@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <router-link to="/page1">Go to Page 1</router-link>
-    <router-link to="/page2">Go to Page 2</router-link>
+    <!-- <router-link to="/page2">Go to Page 2</router-link> -->
     <!-- <router-link to="/page3">Go to Page 3</router-link>
     <router-link to="/page4">Go to Page 4</router-link>
     <router-link to="/page5">Go to Page 5</router-link>

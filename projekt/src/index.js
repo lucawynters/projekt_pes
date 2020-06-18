@@ -12,9 +12,9 @@ Vue.use(VueRouter);
 const router = new VueRouter({
   mode: 'history',
   routes: [
-    { path: '/homepage', component: Page1 },
+    { path: '/homepage', component: App },
     // { path: '/page2/:id', component: Page2 },
-    { path: '/trasa/:id', component: Page2 },
+    { path: '/trasa/:id', component: Page1 },
     // { path: '/trasa/riegrovy-sady', component: Page3 },
     // { path: '/trasa/vitkov', component: Page4 },
     // { path: '/trasa/kunraticko-michelsky-les', component: Page5 },
