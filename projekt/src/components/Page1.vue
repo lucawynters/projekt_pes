@@ -1,19 +1,26 @@
 <template>
-  <h1>sadfsdsd</h1>
+  <h1>{{detail.name}} {{detail.description}}</h1>
 </template>
 
 <script>
-import { routes } from ".projekt/src/data.js ";
+import { data } from "../data.js";
 
 export default {
-  name: "Routes",
+  name: "Page1",
   data() {
-    return { routes };
-  },
-  computed: {
-    getRoute() {
-      return document.getElementById(this.$route.params.id);
-    }
+    return {
+      detail:
+        data[
+          data.findIndex(item => {
+            return item.id === this.$route.params.id;
+          })
+        ]
+    };
   }
+  // computed: {
+  //   getRoute() {
+  //     return document.getElementById(this.$route.params.id);
+  //   }
+  // }
 };
 </script>
