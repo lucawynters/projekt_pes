@@ -2,8 +2,6 @@
   <div class="container">
     <router-link to="/homepage">Logo</router-link>
     <router-link to="/trasa/petrinske-sady">Go to Page 1</router-link>
-
-    <h1>Prahou se psem</h1>
     <router-view />
   </div>
 </template>

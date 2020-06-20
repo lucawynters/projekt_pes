@@ -8,7 +8,7 @@
 
     <div v-html="detail.transport" class="transport"></div>
 
-    <iframe :src="detail.map" width="640" height="480"></iframe>
+    <iframe :src="detail.map" width="640" height="480" class="map"></iframe>
   </div>
 </template>
 
@@ -36,12 +36,20 @@ export default {
 </script>
 <style lang="css" scoped>
 .description {
-  max-width: 260px;
+  padding: 0 100px;
 }
 .name {
   color: #783192;
 }
 .district {
   color: #59bcc8;
+}
+
+.description,
+.name,
+.district,
+.transport {
+  text-align: start;
+  padding-left: 30px;
 }
 </style>
