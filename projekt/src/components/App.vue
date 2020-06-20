@@ -16,7 +16,8 @@
         data-highcolor="#783192"
         data-lowcolor="#59BCC8"
         data-cloudfill="#616a6b"
-      >Praha Počasí</a>
+        >Praha Počasí</a
+      >
     </div>
     <router-view />
     <footer></footer>
@@ -25,7 +26,7 @@
 
 <script>
 export default {
-  name: "App"
+  name: "App",
 };
 !(function(d, s, id) {
   var js,
@@ -84,4 +85,3 @@ footer {
   );
 }
 </style>
-

@@ -18,6 +18,11 @@
           width="640"
           height="480"
         ></iframe>
+        <div class="list-item" v-for="track in tracks" :key="track.id">
+          <router-link class="tracks-list" :to="`/trasa/${track.id}`">{{
+            track.name
+          }}</router-link>
+        </div>
       </div>
     </div>
     <div class="seznam">
@@ -27,7 +32,15 @@
 </template>
 
 <script>
-export default {};
+import { data } from "../data.js";
+
+export default {
+  data() {
+    return {
+      tracks: data,
+    };
+  },
+};
 </script>
 
 <style scoped>
@@ -84,5 +97,20 @@ h2 {
   display: flex;
   flex-direction: column;
   height: 600px;
+}
+.tracks-list {
+  text-decoration: none;
+}
+
+@media (max-width: 499px) {
+  .tracks-list {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 799px) {
+}
+
+@media (min-width: 800px) {
 }
 </style>

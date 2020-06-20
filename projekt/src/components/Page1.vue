@@ -1,14 +1,14 @@
 <template>
   <div class="container">
     <h1 class="name">{{detail.name}}</h1>
+
     <h2 class="district">{{detail.district}}</h2>
+
     <div class="description">{{detail.description}}</div>
-    <div class="transport">{{detail.transport}}</div>
-    <iframe
-      src="https://www.google.com/maps/d/embed?mid=1RHCDdyilXzVmtSt8QGm0EaZWgh50DFWf"
-      width="640"
-      height="480"
-    ></iframe>
+
+    <div v-html="detail.transport" class="transport"></div>
+
+    <iframe :src="detail.map"></iframe>
   </div>
 </template>
 
@@ -34,15 +34,69 @@ export default {
   }
 };
 </script>
-<style lang="css">
-.description {
-  background-color: aqua;
-  max-width: 260px;
-}
+<style lang="css" scoped>
 .name {
-  color: brown;
+  background: -webkit-linear-gradient(left, #783192, #59bcc8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .district {
-  color: grey;
+  color: #616a6b;
+}
+@media (max-width: 499px) {
+  iframe {
+    width: 100%;
+    height: 480px;
+  }
+  .name,
+  .district,
+  .description,
+  .transport {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .transport {
+    padding: 20px 0 20px 50px;
+  }
+}
+@media (min-width: 500px) and (max-width: 799px) {
+  iframe {
+    width: 100%;
+    height: 480px;
+  }
+  .description {
+    padding: 0 100px;
+  }
+  .name,
+  .district,
+  .description,
+  .transport {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .transport {
+    padding: 20px 0 20px 100px;
+  }
+}
+@media (min-width: 800px) {
+  iframe {
+    width: 800px;
+    margin: 0 auto;
+    height: 480px;
+    display: block;
+  }
+  .description {
+    padding: 0 120px;
+  }
+  .name,
+  .district,
+  .description,
+  .transport {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+  .transport {
+    padding: 20px 0 20px 120px;
+  }
 }
 </style>
