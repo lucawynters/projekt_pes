@@ -40,13 +40,12 @@ export default {
 </script>
 <style lang="css">
 .description {
-  background-color: aqua;
   max-width: 260px;
 }
 .name {
-  color: brown;
+  color: #783192;
 }
 .district {
-  color: grey;
+  color: #59bcc8;
 }
 </style>
