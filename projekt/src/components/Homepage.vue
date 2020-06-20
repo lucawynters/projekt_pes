@@ -8,10 +8,10 @@
         consectetuer adipiscing elit. Aenean id metus id velit ullamcorper
         pulvinar. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
       </p>
-      <button class="hpbut">Hurá na mapu</button>
+      <a class="button" href="#map">Hurá na mapu</a>
     </div>
     <div class="mapa">
-      <div class="main">
+      <div id="map" class="main">
         <h2>Toto je hlavní mapa</h2>
         <iframe
           src="https://www.google.com/maps/d/u/0/embed?mid=1EgEwwP7VEbi22zyufEuLC7sFEWcsrhOR"
@@ -57,14 +57,19 @@ export default {
   justify-content: flex-end;
   padding: 50px;
 }
-button {
+.button {
+  display: block;
   width: 200px;
-  color: rgba(0, 0, 0, 1);
-  font-size: 15px;
-  border-radius: 10px;
-  border: none;
+  height: 50px;
+  background: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  line-height: 25px;
   align-self: center;
-  padding: 15px 0;
+  text-decoration: none;
 }
 h1 {
   color: white;
