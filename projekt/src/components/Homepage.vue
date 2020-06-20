@@ -14,14 +14,17 @@
       <div id="map" class="main">
         <h2>Toto je hlavní mapa</h2>
         <iframe
+          class="frame"
           src="https://www.google.com/maps/d/u/0/embed?mid=1EgEwwP7VEbi22zyufEuLC7sFEWcsrhOR"
           width="640"
           height="480"
         ></iframe>
-        <div class="list-item" v-for="track in tracks" :key="track.id">
-          <router-link class="tracks-list" :to="`/trasa/${track.id}`">{{
-            track.name
-          }}</router-link>
+        <div class="wrapper">
+          <div class="list-item" v-for="track in tracks" :key="track.id">
+            <router-link class="tracks-list" :to="`/trasa/${track.id}`">{{
+              track.name
+            }}</router-link>
+          </div>
         </div>
       </div>
     </div>
@@ -95,7 +98,8 @@ h2 {
 }
 
 .main {
-  align-self: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .seznam {
@@ -105,6 +109,34 @@ h2 {
 }
 .tracks-list {
   text-decoration: none;
+}
+.list-item {
+  padding: 7px 15px;
+  width: 200px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  background: linear-gradient(
+    270deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(89, 188, 200, 1) 0%,
+    rgba(120, 49, 146, 1) 100%
+  );
+  text-align: center;
+}
+
+.list-item a {
+  color: white;
+
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.frame {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (max-width: 499px) {
