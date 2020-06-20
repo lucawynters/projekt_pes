@@ -197,6 +197,7 @@ export const data = [
     district: "Praha 18",
     description: "Nedávno vybudovaný lesopark, kterému dominují především rozlehlé louky, bruslařské dráhy a cyklotrailové stezky. Nebudeme si nic nalhávat, známe i lepší místa na venčení. Raději si popojeďte kousek dál do Vinoře.",
     transport: `🚌 Kbelský lesopark`,
+    map: "https://www.google.com/maps/d/embed?mid=1u5Z8ArT8_EJM52cIV52RaEhGtwF9CQrK",
   },
   {
     id: "vinor-satalice",
@@ -204,6 +205,7 @@ export const data = [
     district: "Praha 19",
     description: "Půvabný les s pozůstatky pravěkého osídlení, divokými křovinami, rybníky a bažinami se spadanými stromy. Jediné, co vám může pokazit zážitek jsou neukáznění cyklisti. Lepší je proto chodit mimo hlavní trasy. Příjemná okružní procházka je dlouhá asi 5 kilometrů.",
     transport: `🚌 Vinořský zámek / Za Novákovou zahradou`,
+    map: "https://www.google.com/maps/d/embed?mid=1RUtDDf6u-9As1eXocvsvXcPDNE9K43pL",
   },
   {
     id: "xaverovsky-haj",
@@ -211,6 +213,7 @@ export const data = [
     district: "Praha 20",
     description: "Největší pražský přírodní park. Najdete tu převážně původní porosty dubů a lip. Vede tudy modrá a žlutá turistická stezka. Je protkán množstvím různých cest a pěšinek, takže si můžete naplánovat krátkou procházku, ale i delší výlet. Ale pozor. V lese je špatné pokrytí signálem, takže pokud nechcete bloudit, radši se držte poblíž hlavní cesty. Fakt. Potvrzeno z první ruky. A dávejte taky bacha na koně a cyklisty.",
     transport: `🚌 Xaverov`,
+    map: "https://www.google.com/maps/d/embed?mid=1s8ho9rM6VZVowL9RAR15GsUNYts9zzDZ",
   },
   {
     id: "klanovicky-les",
@@ -219,6 +222,7 @@ export const data = [
     description: "V Klánovickém lese narazíte kromě březových hájků, mokřadů a rybníčků také na pozůstatky středověkých vesniček. Navazuje na Xaverovský háj a osou jeho východní části je řeka Rokytka. Na procházku se můžete vydat po široké asfaltce, nebo se vydat některou z lesních pěšinek. Pozor na velký výskyt divokých prasat a poměrně frekventovanou Staroklánovickou, která k lesu zčásti přiléhá.",
     transport: `🚌 Újezd nad Lesy <br>
         🚂 Klánovice`,
+    map: "https://www.google.com/maps/d/embed?mid=1wiGoIcWuQWhfQFMi35KjNbOUJknSPSFY",
   },
   {
     id: "uhrineves",
@@ -227,6 +231,7 @@ export const data = [
     description: "Uhříněvská obora v údolí Říčanského potoka je po právu přírodní památkou. Hnízdí tady spousta ohrožených ptáků a rostou tu památné duby. Na severozápadním okraji obory se nachází židovský hřbitov, takže sem radši nechoďte za šera 👻.",
     transport: `🚌 Uhříněves <br>
         🚂 Uhříněves`,
+    map: "https://www.google.com/maps/d/embed?mid=10QPn_93z1G-fszk-wd-2SdjVozG2t6Pc",
   },
 
 ];
