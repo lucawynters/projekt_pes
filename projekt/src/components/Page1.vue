@@ -8,7 +8,7 @@
 
     <div v-html="detail.transport" class="transport"></div>
 
-    <iframe :src="detail.map" width="640" height="480" class="map"></iframe>
+    <iframe :src="detail.map"></iframe>
   </div>
 </template>
 
@@ -44,6 +44,10 @@ export default {
   color: #616a6b;
 }
 @media (max-width: 499px) {
+  iframe {
+    width: 100%;
+    height: 480px;
+  }
   .name,
   .district,
   .description,
@@ -56,6 +60,10 @@ export default {
   }
 }
 @media (min-width: 500px) and (max-width: 799px) {
+  iframe {
+    width: 100%;
+    height: 480px;
+  }
   .description {
     padding: 0 100px;
   }
@@ -71,6 +79,12 @@ export default {
   }
 }
 @media (min-width: 800px) {
+  iframe {
+    width: 800px;
+    margin: 0 auto;
+    height: 480px;
+    display: block;
+  }
   .description {
     padding: 0 120px;
   }
