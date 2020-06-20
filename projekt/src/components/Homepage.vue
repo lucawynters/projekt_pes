@@ -6,7 +6,7 @@
       height="480"
     ></iframe>
     <div class="list-item" v-for="track in tracks" :key="track.id">
-      <router-link :to="`/trasa/${track.id}`">{{track.name}}</router-link>
+      <router-link class="tracks-list" :to="`/trasa/${track.id}`">{{track.name}}</router-link>
     </div>
   </div>
 </template>
@@ -23,4 +23,19 @@ export default {
 };
 </script>
 
-<style lang="css" scoped></style>
+<style lang="css" scoped>
+.tracks-list {
+  text-decoration: none;
+}
+@media (max-width: 499px) {
+  .tracks-list {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 799px) {
+}
+
+@media (min-width: 800px) {
+}
+</style>

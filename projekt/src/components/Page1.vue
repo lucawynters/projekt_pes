@@ -36,10 +36,12 @@ export default {
 </script>
 <style lang="css" scoped>
 .name {
-  color: #783192;
+  background: -webkit-linear-gradient(left, #783192, #59bcc8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .district {
-  color: #59bcc8;
+  color: #616a6b;
 }
 @media (max-width: 499px) {
   .name,
