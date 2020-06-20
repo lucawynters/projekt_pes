@@ -116,12 +116,7 @@ h2 {
   width: 200px;
   margin: 8px 3px;
   border-radius: 4px;
-  background: linear-gradient(
-    270deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(89, 188, 200, 1) 0%,
-    rgba(120, 49, 146, 1) 100%
-  );
+  background-color: #59bcc8;
   text-align: center;
   height: 51px;
 }
