@@ -81,6 +81,7 @@ export const data = [
     description: "Rozlehlý park, který původně sloužil k povyražení a honům renesanční šlechty. Dnes už naštěstí nemusíte být šlechtici, abyste si jeho půvabů užili i vy. Hlavní dominantou je letohrádek Hvězda s věhlasným hexagramovým půdorysem. K němu se také sbíhají tři hlavní cesty. Na procházky s čtyřnohým doprovodem však doporučujeme se zatoulat po lesních stezkách a cestičkách. Volné pobíhání oficiálně není dovoleno, ale sami zjistíte, že mimo hlavní cesty tohle pravidlo nikdo nedodržuje.",
     transport: `🚌 Vypich / Ruzyňská / Sídliště Petřiny <br> 
         🚋 Vypich`,
+    map: "https://www.google.com/maps/d/embed?mid=1SvvjUqPUUaIUUtpFseXhlnBaXYq8IYJx",
   },
   {
     id: "letenske-sady",
@@ -90,6 +91,7 @@ export const data = [
     transport: `🚌 Naskové, Šafránkova <br> 
         🚋 Čechův most, Chotkovy sady, Sparta <br>
         Ⓜ️ Hradčanská`,
+    map: "https://www.google.com/maps/d/embed?mid=1nkidfQDm1W0msqtoBIPJMq0qqwXVZOEk",
   },
   {
     id: "stromovka",
@@ -97,6 +99,7 @@ export const data = [
     district: "Praha 7",
     description: "Absolutní legendou a milovaným spotem všech pražáků i přespolních jsou rozhodně Letenské sady. Pokud přežijete návaly lidí, můžete si vychutnat nezapomenutelné výhledy na širší centrum Prahy a Vltavu. Bez vodítka to tady ale nedáte. Volné pobíhání je dovoleno pouze v pásu kolem řeky a v okrajových částech letenské pláně.",
     transport: `🚋 Výstaviště Holešovice`,
+    map: "https://www.google.com/maps/d/embed?mid=1EnOMDNbZgwFh_SWDnO3TPZ5hny6XXvwB",
   },
   {
     id: "drahan-troja",
@@ -105,6 +108,7 @@ export const data = [
     description: "Přírodní park ležící na pravém svahu vltavského údolí. Táhne se podél řeky od Jabloňky po drahaňskou rokli pod Dolními Chabry. Jeho součástí je také Trojská kotlina s botanickou a zoologickou zahradou a řadou zvláště chráněných území. Do zoo vás btw pustí i s pejskem, ale jenom k venkovním výběhům a na vodítku.",
     transport: `🚌 Dolní Chabry / Bohnické údolí /Na Pazderce <br>
         🚋 Nad Trojou`,
+    map: "https://www.google.com/maps/d/embed?mid=1HK8_fs2LK3sdHcZtCL6AGDeHfgcISgAX",
   },
   {
     id: "dablicky-haj",
@@ -113,6 +117,7 @@ export const data = [
     description: "Už vás někdo někdy poslal do háje? No super. Ideální příležitost navštívit ten ďáblický. (Pokud vás navíc poslali i k čertu, máte zabité dvě mouchy jednou ranou). A že to tam navíc není vůbec špatné se přesvědčíte vy i váš pes. Před 98 miliony let byste se tu mohli dokonce vykoupat v moři. Dnes už si přijdou na své spíš milovníci kopců. Najdete tu totiž vrch Ládví, který jeho 359 m. n. m. činí nevyšším vrcholem Prahy. A na něm taky geodetickou věžičku, ze které by se časem měla stát rozhledna. Zajímavostí je, že vrch byl pravděpodobně v dávných dobách mystickým a posvátným místem. Navzdory hustému osídlení v okolí (už z dob pravěku), se totiž přímo na kopci nenalezly vůbec žádné známky lidských obydí. Skrze háj vede žlutá a zelená turistická trasa.",
     transport: `🚌 Bojasova / Květnová <br>
         🚋 Vozovna Kobylisy`,
+    map: "https://www.google.com/maps/d/embed?mid=1jyjv-cIgbQaszq0dz7cmgXFmzFAkfdKr",
   },
   {
     id: "meandry-botice",
@@ -121,6 +126,7 @@ export const data = [
     description: "Botič je jedním z nejdelších pražských potoků. A jak už název napovídá, vytváří meandry. A kolem nich se můžete procházet, obdivovat staré olše a poslouchat trilkování ohrožených druhů ptáků. Bohužel díky blízkosti městské zástavby se tahle přírodní památka potýká s odpadky a znečištěním. Ale to nás přece neodradí. Do jedné ruky psa, do druhé igelitku a hurá toho trošku posbírat a ulevit tak přírodě. Procházka a dobrý skutek v jednom. Karma vás za to jistě odmění.",
     transport: `🚌 Záběhlická škola / OC Hostivař / Pod Vinicí <br>
         🚋 Na Groši / Spořilov`,
+    map: "https://www.google.com/maps/d/embed?mid=1lDOQgVeb7ggQOBtn6AtFJwzXgND59gj-",
   },
 
   {
@@ -131,6 +137,7 @@ export const data = [
     transport: `🚌 Řepčická / Nové Petrovice /  <br>
         🚋 Hostivařská <br>
         Ⓜ️ Háje`,
+    map: "https://www.google.com/maps/d/embed?mid=14ofUdGFbgCTk-4mRa46ruH0jRdaS7Gjz",
   },
   {
     id: "modranska-rokle",
