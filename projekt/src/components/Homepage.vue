@@ -2,10 +2,13 @@
   <div class="container">
     <div class="header">
       <h1>Prahou se psem</h1>
-      <p
-        class="about"
-      >Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean id metus id velit ullamcorper pulvinar. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean id metus id velit ullamcorper pulvinar. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-      <button class="hpbut">Button</button>
+      <p class="about">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean id
+        metus id velit ullamcorper pulvinar. Lorem ipsum dolor sit amet,
+        consectetuer adipiscing elit. Aenean id metus id velit ullamcorper
+        pulvinar. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+      </p>
+      <button class="hpbut">Hurá na mapu</button>
     </div>
     <div class="mapa">
       <div class="main">
@@ -18,7 +21,7 @@
       </div>
     </div>
     <div class="seznam">
-      <h2>Toto je část se seznamem</h2>
+      <h2>Toto je galerie</h2>
     </div>
   </div>
 </template>
@@ -80,5 +83,6 @@ h2 {
 .seznam {
   display: flex;
   flex-direction: column;
+  height: 600px;
 }
 </style>
