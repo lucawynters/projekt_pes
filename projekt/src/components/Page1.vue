@@ -35,21 +35,29 @@ export default {
 };
 </script>
 <style lang="css" scoped>
-.description {
-  padding: 0 100px;
-}
 .name {
   color: #783192;
 }
 .district {
   color: #59bcc8;
 }
-
-.description,
-.name,
-.district,
-.transport {
-  text-align: start;
-  padding-left: 30px;
+@media (max-width: 499px) {
+  .name,
+  .district,
+  .description,
+  .transport {
+    /* text-align: center; */
+    padding-left: 50px;
+  }
+  .transport {
+    padding: 20px 0 20px 50px;
+  }
+}
+@media (min-width: 500px and max-width: 799px;) {
+  .description {
+    padding: 0 100px;
+  }
+}
+@media (min-width: 800px) {
 }
 </style>
