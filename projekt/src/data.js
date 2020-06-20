@@ -143,7 +143,7 @@ export const data = [
     id: "modranska-rokle",
     name: "Modřanská rokle",
     district: "Praha 12",
-    description: "",
+    description: "Centrem tohoto přírodního parku je oblíbený areál Modřanské rokle. Celou roklí vede po rovince asfaltka, což potěší hlavně méně zdatné procházkáře a rodiny s kočárky. Cestou také potkáte několik potůčků a studánek.",
     transport: `<span aria-label="autobus" title="autobus">🚌</span> Komořany  <br>
         <span aria-label="tramvaj" title="tramvaj">🚋</span> Modřanská rokle`,
     map: "https://www.google.com/maps/d/embed?mid=13Mwr1AyYwAspBjrsvAyQJjpocmu4Hw_F",

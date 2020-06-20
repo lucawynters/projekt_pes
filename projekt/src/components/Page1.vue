@@ -46,18 +46,41 @@ export default {
   .district,
   .description,
   .transport {
-    /* text-align: center; */
     padding-left: 50px;
+    padding-right: 50px;
   }
   .transport {
     padding: 20px 0 20px 50px;
   }
 }
-@media (min-width: 500px and max-width: 799px;) {
+@media (min-width: 500px) and (max-width: 799px) {
   .description {
     padding: 0 100px;
   }
+  .name,
+  .district,
+  .description,
+  .transport {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .transport {
+    padding: 20px 0 20px 100px;
+  }
 }
 @media (min-width: 800px) {
+  .description {
+    padding: 0 120px;
+  }
+  .name,
+  .district,
+  .description,
+  .transport {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+  .transport {
+    padding: 20px 0 20px 120px;
+  }
 }
 </style>
