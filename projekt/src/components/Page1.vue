@@ -1,5 +1,15 @@
 <template>
-  <h1>{{detail.name}} {{detail.description}}</h1>
+  <div class="container">
+    <h1 class="name">{{detail.name}}</h1>
+    <h2 class="district">{{detail.district}}</h2>
+    <div class="description">{{detail.description}}</div>
+    <div class="transport">{{detail.transport}}</div>
+    <iframe
+      src="https://www.google.com/maps/d/embed?mid=1RHCDdyilXzVmtSt8QGm0EaZWgh50DFWf"
+      width="640"
+      height="480"
+    ></iframe>
+  </div>
 </template>
 
 <script>
@@ -16,11 +26,23 @@ export default {
           })
         ]
     };
+  },
+  computed: {
+    getRoute() {
+      return document.getElementById(this.$route.params.id);
+    }
   }
-  // computed: {
-  //   getRoute() {
-  //     return document.getElementById(this.$route.params.id);
-  //   }
-  // }
 };
 </script>
+<style lang="css">
+.description {
+  background-color: aqua;
+  max-width: 260px;
+}
+.name {
+  color: brown;
+}
+.district {
+  color: grey;
+}
+</style>

@@ -1,3 +1,9 @@
 <template>
-  <h1>fsaffsdf</h1>
+  <div>
+    <iframe
+      src="https://www.google.com/maps/d/u/0/embed?mid=1EgEwwP7VEbi22zyufEuLC7sFEWcsrhOR"
+      width="640"
+      height="480"
+    ></iframe>
+  </div>
 </template>
