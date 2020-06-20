@@ -7,7 +7,7 @@ export const data = [
     transport:
       `🚋 Újezd / Malovanka <br>
         🚞 Lanová dráha Újezd - Petřín`,
-    map: 
+    map: "https://www.google.com/maps/d/embed?mid=1RHCDdyilXzVmtSt8QGm0EaZWgh50DFWf",
   },
   {
     id: "riegrovy-sady",
@@ -18,6 +18,7 @@ export const data = [
       `🚌 Na Smetance <br>
         🚋 Italská / Vinohradská <br>
         Ⓜ️ Náměstí Míru`,
+    map: "https://www.google.com/maps/d/embed?mid=1_AB102PIEUA-lo390JapF-yk1LawQAgb",
   },
   {
     id: "vitkov",
@@ -28,6 +29,7 @@ export const data = [
       `🚌 U Památníku / Tachovské nám. / Černínova / Ohrada<br> 
         🚋 Ohrada <br>
         Ⓜ️ Křižíkova`,
+    map: "https://www.google.com/maps/d/embed?mid=1x_qTID-VxchvPAYXDtpk8SrkzySnWb2c",
   },
   {
     id: "kunraticko-michelsky-les",
@@ -37,6 +39,7 @@ export const data = [
     transport:
       `🚌 U Labutě / IKEM / Zelené domky / <br> 
         `,
+    map: "https://www.google.com/maps/d/embed?mid=1kNi6bPKp9a41NCQzogW0RaUCUvelyEpH",
   },
   {
     id: "kosire-motol",
@@ -48,6 +51,7 @@ export const data = [
         🚋 Vozovna Motol / Poštovka <br>
         🚂 Cibulka, Stodůlky`
     ,
+    map: "https://www.google.com/maps/d/embed?mid=1qrKz162EvfWXvj3mdH8Rddcko25Oex0P",
   },
   {
     id: "prokopsko-dalejske-udoli",
@@ -58,6 +62,7 @@ export const data = [
       `🚌 Řeporyjské náměstí <br> 
         🚂 Hlubočepy`
     ,
+    map: "https://www.google.com/maps/d/embed?mid=1HDvCGvpNSUvhEMcz7WaPUiijmiZxBG-q",
   },
   {
     id: "lysolaje-sarka",
@@ -67,6 +72,7 @@ export const data = [
     transport: `🚌 Nad Hrabovkou / Na Mlýnici / Dědina <br> 
         🚋 Divoká Šárka <br>
         Ⓜ️ Nádraží Veleslavín`,
+    map: "https://www.google.com/maps/d/embed?mid=1W4OD9r2kYn8GFBnyAmIRDx7mWR98L5x0",
   },
   {
     id: "obora-hvezda",
