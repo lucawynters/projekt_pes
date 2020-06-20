@@ -31,12 +31,14 @@
     </div>
     <div class="seznam">
       <h2>Toto je galerie</h2>
+      <Slider />
     </div>
   </div>
 </template>
 
 <script>
 import { data } from "../data.js";
+import Gallery from "./components/Gallery.vue";
 
 export default {
   data() {
