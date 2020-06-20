@@ -6,13 +6,9 @@
 
     <div class="description">{{detail.description}}</div>
 
-    <div class="transport">{{detail.transport}}</div>
+    <div v-html="detail.transport" class="transport"></div>
 
-    <iframe
-      src="https://www.google.com/maps/d/embed?mid=1RHCDdyilXzVmtSt8QGm0EaZWgh50DFWf"
-      width="640"
-      height="480"
-    ></iframe>
+    <iframe :src="detail.map" width="640" height="480"></iframe>
   </div>
 </template>
 
