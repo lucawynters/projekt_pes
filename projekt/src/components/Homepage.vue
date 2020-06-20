@@ -19,6 +19,7 @@
           width="640"
           height="480"
         ></iframe>
+        <h2>Toto je seznam parků</h2>
         <div class="wrapper">
           <div class="list-item" v-for="track in tracks" :key="track.id">
             <router-link class="tracks-list" :to="`/trasa/${track.id}`">{{
@@ -113,7 +114,7 @@ h2 {
 .list-item {
   padding: 7px 15px;
   width: 200px;
-  margin-bottom: 8px;
+  margin: 8px 3px;
   border-radius: 4px;
   background: linear-gradient(
     270deg,
@@ -122,18 +123,22 @@ h2 {
     rgba(120, 49, 146, 1) 100%
   );
   text-align: center;
-}
-
-.list-item a {
-  color: white;
-
-  text-decoration: none;
+  height: 51px;
 }
 
 .wrapper {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 50px;
 }
+
+.list-item a {
+  color: white;
+  text-decoration: none;
+  padding-top: 10px;
+}
+
 .frame {
   margin-left: auto;
   margin-right: auto;
