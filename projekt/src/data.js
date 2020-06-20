@@ -146,6 +146,7 @@ export const data = [
     description: "",
     transport: `🚌 Komořany  <br>
         🚋 Modřanská rokle`,
+    map: "https://www.google.com/maps/d/embed?mid=13Mwr1AyYwAspBjrsvAyQJjpocmu4Hw_F",
   },
   {
     id: "u-haju",
@@ -153,6 +154,7 @@ export const data = [
     district: "Praha 13",
     description: "U Hájů je přírodní památka v mělkém zalesněném údolí s několika přilehlými loukami, které se rozkládá v pražské čtvrti Stodůlky mezi bývalou usedlostí Háje a náspem Buštěhradské železniční trati tzv. Pražským Semmeringem.",
     transport: `🚌 Za Mototechnou`,
+    map: "https://www.google.com/maps/d/embed?mid=1AnuAbFWAyz2DO_9vyOAPGNrnynWu6et4",
   },
   {
     id: "les-lehovec",
@@ -160,6 +162,7 @@ export const data = [
     district: "Praha 14",
     description: "Méně známý pražský les (čtěte: nebude tam milión lidí) v blízkosti Kyjského rybníka. Je protkán sítí stezek pro příjemné a nerušené procházky",
     transport: `🚌 Sídliště Lehovec`,
+    map: "https://www.google.com/maps/d/embed?mid=1k-hCq3489quCiqDDmPrrjAQ7k7sO9Gtz",
   },
   {
     id: "cihadla",
@@ -168,6 +171,7 @@ export const data = [
     description: "Další z příjemných městských lesoparků dokonce hned se dvěma turistickými zajímavostmi. Tou první je nová rozhledna Doubravka, která se nachází na vrchu Horka (254 m n. m.). Ta je unikátní konstrukcí, použitými materiály, způsobem realizace i tím, že pochází z dílny světoznámého architekta Martina Rajniše. Druhou je pak suchý poldr Číhadla, který poskytuje iluzi procházky po severské přírodě. Aneb dovolená ve Skandinávii za cenu MHD jízdenky. Ding, ding, ding!",
     transport: `🚌 Kyje <br>
         🚂 Kyje`,
+    map: "https://www.google.com/maps/d/embed?mid=1ybO6wawoZMyfqu84MTCQHmsKSWdAUb1V",
   },
 
   {
@@ -176,6 +180,7 @@ export const data = [
     district: "Praha 16",
     description: "I v Chuchli můžete jít do háje. Anebo radši do ZOO. Kromě krásné procházky tady totiž najdete lesní mini ZOO a taky krásnou louku se sportovním parkem. ",
     transport: `🚌 Malá Chuchle / Velká Chuchle / Kazínská`,
+    map: "https://www.google.com/maps/d/embed?mid=1OIupSsSj-wMyXE0QwrCWOJAg0WjQrxWN",
   },
   {
     id: "repy-motol",
@@ -184,6 +189,7 @@ export const data = [
     description: "Příjemný menší lesopark, kde si můžete po procházce zacvičit ve venkovním gymu, nebo posedět s přáteli na piknikovém spotu. Obojí zadarmo. V horní části lesoparku se nachází pláň, kde si to nejvíc užijou milovníci aportování. Ve východní části se můžete taky pokochat krásným výhledem na Prahu. Takže pokud se zrovna nacházíte v okolí Řep či Bílé Hory, určitě neváhejte s návštěvou.",
     transport: `🚌 Krematorium Motol, Šedivého <br>
         🚋 Krematorium Motol / Bílá hora`,
+    map: "https://www.google.com/maps/d/u/0/embed?mid=1OEFvxbYy8-1ua0YVFw8QwA0wk7jpMLLY",
   },
   {
     id: "letnany",
