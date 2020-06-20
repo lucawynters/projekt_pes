@@ -7,6 +7,7 @@ export const data = [
     transport:
       `🚋 Újezd / Malovanka <br>
         🚞 Lanová dráha Újezd - Petřín`,
+    map: 
   },
   {
     id: "riegrovy-sady",

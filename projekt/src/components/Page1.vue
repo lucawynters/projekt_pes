@@ -38,7 +38,7 @@ export default {
   }
 };
 </script>
-<style lang="css">
+<style lang="css" scoped>
 .description {
   max-width: 260px;
 }
