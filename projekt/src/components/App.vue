@@ -1,10 +1,14 @@
 <template>
   <div class="container">
-    <router-link to="/homepage">Logo</router-link>
-    <router-link to="/trasa/petrinske-sady">Go to Page 1</router-link>
-
-    <h1>Prahou se psem</h1>
-    <router-view />
+    <div class="navbar">
+      <img class="logo" src="../assets/rsz_cover.png" />
+      <nav class="navigace">
+        <router-link class="link" to="/homepage">Mapa</router-link>
+        <router-link class="link" to="/homepage">Seznam tras</router-link>
+        <router-link class="link" to="/trasa/:id">Go to Page 1</router-link>
+      </nav>
+    </div>
+    <router-view class="view" />
   </div>
 </template>
 
@@ -22,4 +26,30 @@ export default {
 html {
   font-family: sans-serif;
 }
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 350px;
+  height: auto;
+  margin-left: 0;
+}
+
+.link {
+  color: #616a6b;
+  text-decoration: none;
+}
+
+.navigace {
+  align-self: center;
+  margin-right: 50px;
+}
+
+.view {
+}
 </style>
+
