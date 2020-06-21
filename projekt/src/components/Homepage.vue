@@ -6,7 +6,7 @@
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean id
         metus id velit ullamcorper pulvinar. Lorem ipsum dolor sit amet,
         consectetuer adipiscing elit. Aenean id metus id velit ullamcorper
-        pulvinar. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+        pulvinar. Lorem ipsum dolor sit amet, consectetuer adipiscing.
       </p>
       <a class="button" href="#map">Hurá na mapu</a>
     </div>
@@ -22,9 +22,11 @@
         <h2>Toto je seznam parků</h2>
         <div class="wrapper">
           <div class="list-item" v-for="track in tracks" :key="track.id">
-            <router-link class="tracks-list" :to="`/trasa/${track.id}`">{{
+            <router-link class="tracks-list" :to="`/trasa/${track.id}`">
+              {{
               track.name
-            }}</router-link>
+              }}
+            </router-link>
           </div>
         </div>
       </div>
@@ -41,9 +43,9 @@ import { data } from "../data.js";
 export default {
   data() {
     return {
-      tracks: data,
+      tracks: data
     };
-  },
+  }
 };
 </script>
 

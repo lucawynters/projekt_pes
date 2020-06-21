@@ -3,7 +3,7 @@
     <div class="navbar">
       <img class="logo" src="../assets/rsz_cover.png" />
       <nav class="navigace">
-        <router-link class="link" to="/homepage">Mapa</router-link>
+        <router-link class="link" to="/">Mapa</router-link>
         <router-link class="link" to="/trasa/:id">Seznam tras</router-link>
       </nav>
       <a

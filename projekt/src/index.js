@@ -14,7 +14,7 @@ Vue.use(VueAgile);
 const router = new VueRouter({
   mode: 'history',
   routes: [
-    { path: '/homepage', component: Homepage },
+    { path: '/', component: Homepage },
     { path: '/trasa/:id', component: Page1 },
   ],
 });
