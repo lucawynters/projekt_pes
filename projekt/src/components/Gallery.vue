@@ -20,11 +20,9 @@
     </slide>
   </hooper>
 </template>
-
 <script>
 import { Hooper, Slide } from "hooper";
 import "hooper/dist/hooper.css";
-
 export default {
   name: "App",
   components: {
@@ -51,14 +49,13 @@ export default {
   },
 };
 </script>
-
 <style scoped>
 .slider {
   width: 100%;
   height: auto;
+  padding: 0 10px;
 }
-
-hooper {
-  height: 500px;
+.hooper {
+  height: 45vw;
 }
 </style>

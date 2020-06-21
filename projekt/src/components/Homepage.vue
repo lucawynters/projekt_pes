@@ -88,6 +88,7 @@ h1 {
 h2 {
   align-self: center;
   text-align: center;
+  padding-top: 20px;
 }
 .about {
   color: white;
@@ -110,7 +111,7 @@ h2 {
 .seznam {
   display: flex;
   flex-direction: column;
-  height: 600px;
+  height: calc(45vw + 4em);
 }
 .tracks-list {
   text-decoration: none;
@@ -129,7 +130,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin: 50px;
+  margin: 0 50px 30px 50px;
 }
 
 .list-item a {
