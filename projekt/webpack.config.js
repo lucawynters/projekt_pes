@@ -16,62 +16,63 @@ module.exports = {
       ]
     })
   ]
+}
 
 module.exports = {
-    entry: [
-      './src/index.js'
-    ],
-    output: {
-      path: path.join(__dirname, 'dist'),
-      filename: 'bundle.js',
-    },
-    resolve: {
-      extensions: ['.js', '.vue'],
-    },
-    module: {
-      rules: [
-        {
-          test: /\.css$/,
-          use: ['vue-style-loader', 'css-loader']
-        },
-        {
-          test: /\.html$/,
-          use: [
-            {
-              loader: 'file-loader',
-              options: {
-                name: '[name].[ext]',
-              }
+  entry: [
+    './src/index.js'
+  ],
+  output: {
+    path: path.join(__dirname, 'dist'),
+    filename: 'bundle.js',
+  },
+  resolve: {
+    extensions: ['.js', '.vue'],
+  },
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: ['vue-style-loader', 'css-loader']
+      },
+      {
+        test: /\.html$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
             }
-          ]
-        },
-        {
-          test: /\.(png|jpe?g|svg)$/,
-          use: [
-            {
-              loader: 'file-loader',
-              options: {
-                name: '[name]-[hash:6].[ext]',
-                outputPath: 'assets/img',
-                esModule: false,
-              }
+          }
+        ]
+      },
+      {
+        test: /\.(png|jpe?g|svg)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name]-[hash:6].[ext]',
+              outputPath: 'assets/img',
+              esModule: false,
             }
-          ]
-        },
-        {
-          test: /\.vue$/,
-          use: 'vue-loader',
-        },
-      ],
-    },
-    plugins: [
-      new VueLoaderPlugin(),
-      new CopyPlugin({
-        patterns: [{
-          from: 'src/assets',
-          to: 'assets',
-          noErrorOnMissing: true,
-        }],
-      }),
+          }
+        ]
+      },
+      {
+        test: /\.vue$/,
+        use: 'vue-loader',
+      },
     ],
-  };
+  },
+  plugins: [
+    new VueLoaderPlugin(),
+    new CopyPlugin({
+      patterns: [{
+        from: 'src/assets',
+        to: 'assets',
+        noErrorOnMissing: true,
+      }],
+    }),
+  ],
+};

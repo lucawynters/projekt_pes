@@ -46,7 +46,7 @@ export default {
 }
 
 html {
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .navbar {
