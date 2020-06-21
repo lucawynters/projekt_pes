@@ -57,4 +57,8 @@ export default {
   width: 100%;
   height: auto;
 }
+
+hooper {
+  height: 500px;
+}
 </style>

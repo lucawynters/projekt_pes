@@ -3,10 +3,9 @@
     <div class="header">
       <h1>Prahou se psem</h1>
       <p class="about">
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean id
-        metus id velit ullamcorper pulvinar. Lorem ipsum dolor sit amet,
-        consectetuer adipiscing elit. Aenean id metus id velit ullamcorper
-        pulvinar. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+        Prijměte naše pozvání na toulky nejkrásnějšími pražskými luhy a háji.
+        Prozradíme vám tajné tipy na ty nejlepší trasy procházek a přidáme pár
+        dobrých rad k tomu.
       </p>
       <a class="button" href="#map">Hurá na mapu</a>
     </div>
@@ -20,7 +19,7 @@
           height="480"
         ></iframe>
         <h2>Toto je seznam parků</h2>
-        <div class="wrapper">
+        <div id="seznam" class="wrapper">
           <div class="list-item" v-for="track in tracks" :key="track.id">
             <router-link class="tracks-list" :to="`/trasa/${track.id}`">{{
               track.name

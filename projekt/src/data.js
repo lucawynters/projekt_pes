@@ -160,7 +160,7 @@ export const data = [
     id: "les-lehovec",
     name: "Les Lehovec",
     district: "Praha 14",
-    description: "Méně známý pražský les (čtěte: nebude tam milión lidí) v blízkosti Kyjského rybníka. Je protkán sítí stezek pro příjemné a nerušené procházky",
+    description: "Méně známý pražský les (čtěte: nebude tam milión lidí) v blízkosti Kyjského rybníka. Je protkán sítí stezek pro příjemné a nerušené procházky.",
     transport: `<span aria-label="autobus" title="autobus">🚌</span> Sídliště Lehovec`,
     map: "https://www.google.com/maps/d/embed?mid=1k-hCq3489quCiqDDmPrrjAQ7k7sO9Gtz",
   },

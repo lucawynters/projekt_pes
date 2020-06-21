@@ -3,8 +3,8 @@
     <div class="navbar">
       <img class="logo" src="../assets/rsz_cover.png" />
       <nav class="navigace">
-        <router-link class="link" to="/homepage">Mapa</router-link>
-        <router-link class="link" to="/trasa/:id">Seznam tras</router-link>
+        <a href="/#map">Mapa</a>
+        <a href="/#seznam">Seznam tras</a>
       </nav>
       <a
         class="weatherwidget-io"
@@ -83,5 +83,14 @@ footer {
     rgba(89, 188, 200, 1) 0%,
     rgba(120, 49, 146, 1) 100%
   );
+}
+.navigace a {
+  color: #616a6b;
+  text-decoration: none;
+  padding: 0 20px;
+  font-weight: 500;
+}
+.navigace a:hover {
+  color: #783192;
 }
 </style>
