@@ -1,7 +1,9 @@
 <template>
   <div class="container">
-    <div class="navbar">
+    <header class="navbar">
       <img class="logo" src="../assets/rsz_cover.png" />
+      <img class="logo2" src="../assets/favicon.png" />
+
       <nav class="navigace">
         <router-link class="link" to="/">Mapa</router-link>
         <router-link class="link" to="/trasa/:id">Seznam tras</router-link>
@@ -16,17 +18,26 @@
         data-highcolor="#783192"
         data-lowcolor="#59BCC8"
         data-cloudfill="#616a6b"
-        >Praha Počasí</a
-      >
-    </div>
+      >Praha Počasí</a>
+    </header>
     <router-view />
-    <footer></footer>
+    <footer>
+      <div class="text">
+        <p>Made with (dog🐶) love by Lůca and Pauli 🤍</p>
+        <p>with help from Sergej</p>
+        <p>
+          thanks to
+          <a href class="czechitas" link="https://www.czechitas.cz/cs/kdo-jsme">Czechitas</a> 🤍
+        </p>
+      </div>
+      <img class="logo3" src="../assets/Czechitas_logo_bez_pozadi.png" />
+    </footer>
   </div>
 </template>
 
 <script>
 export default {
-  name: "App",
+  name: "App"
 };
 !(function(d, s, id) {
   var js,
@@ -56,7 +67,7 @@ html {
 }
 
 .logo {
-  width: 350px;
+  /* width: auto; zmenene */
   height: auto;
   margin-left: 0;
 }
@@ -83,5 +94,68 @@ footer {
     rgba(89, 188, 200, 1) 0%,
     rgba(120, 49, 146, 1) 100%
   );
+  color: white;
+}
+.czechitas {
+  text-decoration: none;
+  color: white;
+}
+@media (max-width: 499px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
+  .logo {
+    display: none;
+  }
+  .logo2 {
+    width: auto;
+    height: 70px;
+  }
+  .logo3 {
+    display: none;
+  }
+}
+@media (min-width: 500px) and (max-width: 799px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+  }
+  p {
+    padding: 1px;
+  }
+  .logo {
+    display: none;
+  }
+  .logo2 {
+    width: auto;
+    height: 90px;
+  }
+  .logo3 {
+    display: none;
+  }
+}
+@media (min-width: 800px) {
+  footer {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+  }
+  .logo {
+    width: 250px;
+    align-self: center;
+  }
+  .logo2 {
+    display: none;
+  }
+  .logo3 {
+    width: 250px;
+  }
 }
 </style>
