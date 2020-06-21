@@ -3,6 +3,21 @@ const CopyPlugin = require('copy-webpack-plugin');
 
 const path = require('path');
 
+const GoogleFontsPlugin = require("google-fonts-webpack-plugin")
+
+module.exports = {
+  "entry": "index.js",
+  /* ... */
+  plugins: [
+    new GoogleFontsPlugin({
+      fonts: [
+        { family: "Source Sans Pro" },
+        { family: "Roboto", variants: ["100", "300", "400", "500", "700"] }
+      ]
+    })
+  ]
+}
+
 module.exports = {
   entry: [
     './src/index.js'
@@ -53,10 +68,10 @@ module.exports = {
   plugins: [
     new VueLoaderPlugin(),
     new CopyPlugin({
-      patterns: [{ 
-        from: 'src/assets', 
+      patterns: [{
+        from: 'src/assets',
         to: 'assets',
-        noErrorOnMissing: true, 
+        noErrorOnMissing: true,
       }],
     }),
   ],
