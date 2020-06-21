@@ -24,7 +24,7 @@
     <footer>
       <div class="text">
         <p>Made with (dog🐶) love by Lůca and Pauli 🤍</p>
-        <p>with a help from Sergej</p>
+        <p>with help from Sergej</p>
         <p>
           thanks to
           <a href class="czechitas" link="https://www.czechitas.cz/cs/kdo-jsme">Czechitas</a> 🤍
@@ -149,6 +149,7 @@ footer {
   }
   .logo {
     width: 250px;
+    align-self: center;
   }
   .logo2 {
     display: none;
