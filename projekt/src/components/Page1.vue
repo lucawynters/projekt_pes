@@ -1,14 +1,14 @@
 <template>
   <div class="container">
-    <h1 class="name">{{detail.name}}</h1>
+    <h1 class="name">{{ detail.name }}</h1>
 
-    <h2 class="district">{{detail.district}}</h2>
+    <h2 class="district">{{ detail.district }}</h2>
 
-    <div class="description">{{detail.description}}</div>
+    <div class="description">{{ detail.description }}</div>
 
     <div v-html="detail.transport" class="transport"></div>
 
-    <iframe :src="detail.map"></iframe>
+    <iframe class="detailMap" :src="detail.map"></iframe>
   </div>
 </template>
 
@@ -21,17 +21,17 @@ export default {
     return {
       detail:
         data[
-          data.findIndex(item => {
+          data.findIndex((item) => {
             return item.id === this.$route.params.id;
           })
-        ]
+        ],
     };
   },
   computed: {
     getRoute() {
       return document.getElementById(this.$route.params.id);
-    }
-  }
+    },
+  },
 };
 </script>
 <style lang="css" scoped>
@@ -42,6 +42,9 @@ export default {
 }
 .district {
   color: #616a6b;
+}
+.detailMap {
+  margin-bottom: 40px;
 }
 @media (max-width: 499px) {
   iframe {
