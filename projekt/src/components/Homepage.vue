@@ -31,15 +31,19 @@
     </div>
     <div class="seznam">
       <h2>Toto je galerie</h2>
-      <Slider />
+      <Gallery />
     </div>
   </div>
 </template>
 
 <script>
 import { data } from "../data.js";
+import Gallery from "./Gallery";
 
 export default {
+  components: {
+    Gallery,
+  },
   data() {
     return {
       tracks: data,
