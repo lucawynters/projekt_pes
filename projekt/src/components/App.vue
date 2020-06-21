@@ -22,12 +22,15 @@
     </header>
     <router-view />
     <footer>
-      <p>Made with (dog)love by Lůca and Pauli 🤍</p>
-      <p>with a help from Sergej</p>
-      <p>
-        thanks to
-        <a href class="czechitas" link="https://www.czechitas.cz/cs/kdo-jsme">Czechitas</a> 🤍
-      </p>
+      <div class="text">
+        <p>Made with (dog)love by Lůca and Pauli 🤍</p>
+        <p>with a help from Sergej</p>
+        <p>
+          thanks to
+          <a href class="czechitas" link="https://www.czechitas.cz/cs/kdo-jsme">Czechitas</a> 🤍
+        </p>
+      </div>
+      <img class="logo3" src="../assets/Czechitas_logo_bez_pozadi.png" />
     </footer>
   </div>
 </template>
@@ -112,6 +115,9 @@ footer {
     width: auto;
     height: 70px;
   }
+  .logo3 {
+    display: none;
+  }
 }
 @media (min-width: 500px) and (max-width: 799px) {
   footer {
@@ -131,9 +137,13 @@ footer {
     width: auto;
     height: 90px;
   }
+  .logo3 {
+    display: none;
+  }
 }
 @media (min-width: 800px) {
   footer {
+    align-self: center;
     display: flex;
     justify-content: flex-start;
     padding: 50px;
@@ -143,6 +153,9 @@ footer {
   }
   .logo2 {
     display: none;
+  }
+  .logo3 {
+    width: 250px;
   }
 }
 </style>
