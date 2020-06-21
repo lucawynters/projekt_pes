@@ -81,7 +81,7 @@ html {
   margin-left: 0;
 }
 
-.czechitas a:hover {
+.czechitas:hover {
   color: #e5007d;
 }
 .link {
@@ -90,6 +90,7 @@ html {
   padding-left: 20px;
   padding-right: 20px;
 }
+
 .weatherwidget-io {
   width: 450px;
 }
@@ -180,6 +181,9 @@ footer {
   }
   .navbar {
     padding-bottom: 20px;
+  }
+  .first-part {
+    display: flex;
   }
 }
 </style>
