@@ -56,9 +56,10 @@ export default {
 .slider {
   width: 100%;
   height: auto;
+  padding: 0 10px;
 }
 
-hooper {
-  height: 500px;
+.hooper {
+  height: 45vw;
 }
 </style>

@@ -1,33 +1,8 @@
 <template>
   <div class="container">
-<<<<<<< HEAD
-    <header class="navbar">
-      <div class="first-part">
-        <img class="logo" src="../assets/rsz_cover.png" />
-        <img class="logo2" src="../assets/favicon.png" />
-
-        <nav class="navigace">
-          <router-link class="link" to="/">Mapa</router-link>
-          <router-link class="link" to="/trasa/:id">Seznam tras</router-link>
-        </nav>
-      </div>
-      <div class="second-part">
-        <a
-          class="weatherwidget-io"
-          href="https://forecast7.com/cs/50d0814d44/prague/"
-          data-label_1="Praha"
-          data-label_2="Počasí"
-          data-icons="Climacons Animated"
-          data-days="3"
-          data-highcolor="#783192"
-          data-lowcolor="#59BCC8"
-          data-cloudfill="#616a6b"
-        >Praha Počasí</a>
-      </div>
-    </header>
-=======
     <div class="navbar">
       <img class="logo" src="../assets/rsz_cover.png" />
+      <img class="logo2" src="../assets/favicon.png" />
       <nav class="navigace">
         <a href="/#map">Mapa</a>
         <a href="/#seznam">Seznam tras</a>
@@ -45,7 +20,6 @@
         >Praha Počasí</a
       >
     </div>
->>>>>>> lucy
     <router-view />
     <footer>
       <div class="text">
@@ -53,7 +27,10 @@
         <p>with help from Sergej</p>
         <p>
           thanks to
-          <a href="https://www.czechitas.cz/cs/kdo-jsme" class="czechitas">Czechitas</a> 🤍
+          <a href="https://www.czechitas.cz/cs/kdo-jsme" class="czechitas"
+            >Czechitas</a
+          >
+          🤍
         </p>
       </div>
       <img class="logo3" src="../assets/Czechitas_logo_bez_pozadi.png" />
@@ -63,7 +40,7 @@
 
 <script>
 export default {
-  name: "App"
+  name: "App",
 };
 !(function(d, s, id) {
   var js,
