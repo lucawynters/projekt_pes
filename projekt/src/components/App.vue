@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+<<<<<<< HEAD
     <header class="navbar">
       <div class="first-part">
         <img class="logo" src="../assets/rsz_cover.png" />
@@ -24,6 +25,27 @@
         >Praha Počasí</a>
       </div>
     </header>
+=======
+    <div class="navbar">
+      <img class="logo" src="../assets/rsz_cover.png" />
+      <nav class="navigace">
+        <a href="/#map">Mapa</a>
+        <a href="/#seznam">Seznam tras</a>
+      </nav>
+      <a
+        class="weatherwidget-io"
+        href="https://forecast7.com/cs/50d0814d44/prague/"
+        data-label_1="Praha"
+        data-label_2="Počasí"
+        data-icons="Climacons Animated"
+        data-days="3"
+        data-highcolor="#783192"
+        data-lowcolor="#59BCC8"
+        data-cloudfill="#616a6b"
+        >Praha Počasí</a
+      >
+    </div>
+>>>>>>> lucy
     <router-view />
     <footer>
       <div class="text">
@@ -177,5 +199,14 @@ footer {
   .navbar {
     padding-bottom: 20px;
   }
+}
+.navigace a {
+  color: #616a6b;
+  text-decoration: none;
+  padding: 0 20px;
+  font-weight: 500;
+}
+.navigace a:hover {
+  color: #783192;
 }
 </style>
