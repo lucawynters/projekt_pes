@@ -16,17 +16,20 @@
         data-highcolor="#783192"
         data-lowcolor="#59BCC8"
         data-cloudfill="#616a6b"
-        >Praha Počasí</a
-      >
+      >Praha Počasí</a>
     </div>
     <router-view />
-    <footer></footer>
+    <footer>
+      Made with (dog)love by Lůca and Pauli 🤍
+      <br />help from Sergej
+      <br />thanks to Czechitas 🤍
+    </footer>
   </div>
 </template>
 
 <script>
 export default {
-  name: "App",
+  name: "App"
 };
 !(function(d, s, id) {
   var js,
@@ -83,5 +86,6 @@ footer {
     rgba(89, 188, 200, 1) 0%,
     rgba(120, 49, 146, 1) 100%
   );
+  color: white;
 }
 </style>
