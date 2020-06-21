@@ -1,14 +1,13 @@
 <template>
   <div class="container">
-<<<<<<< HEAD
     <header class="navbar">
       <div class="first-part">
         <img class="logo" src="../assets/rsz_cover.png" />
         <img class="logo2" src="../assets/favicon.png" />
 
         <nav class="navigace">
-          <router-link class="link" to="/">Mapa</router-link>
-          <router-link class="link" to="/trasa/:id">Seznam tras</router-link>
+          <a href="/#map">Mapa</a>
+          <a href="/#seznam">Seznam tras</a>
         </nav>
       </div>
       <div class="second-part">
@@ -26,27 +25,6 @@
         >
       </div>
     </header>
-=======
-    <div class="navbar">
-      <img class="logo" src="../assets/rsz_cover.png" />
-      <nav class="navigace">
-        <a href="/#map">Mapa</a>
-        <a href="/#seznam">Seznam tras</a>
-      </nav>
-      <a
-        class="weatherwidget-io"
-        href="https://forecast7.com/cs/50d0814d44/prague/"
-        data-label_1="Praha"
-        data-label_2="Počasí"
-        data-icons="Climacons Animated"
-        data-days="3"
-        data-highcolor="#783192"
-        data-lowcolor="#59BCC8"
-        data-cloudfill="#616a6b"
-        >Praha Počasí</a
-      >
-    </div>
->>>>>>> lucy
     <router-view />
     <footer>
       <div class="text">
@@ -183,6 +161,10 @@ footer {
   }
   .navbar {
     padding-bottom: 20px;
+  }
+  .first-part {
+    display: flex;
+    flex-direction: row;
   }
 }
 @media (min-width: 800px) {

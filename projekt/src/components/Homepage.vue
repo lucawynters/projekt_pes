@@ -3,16 +3,9 @@
     <div class="header">
       <h1>Prahou se psem</h1>
       <p class="about">
-<<<<<<< HEAD
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean id
-        metus id velit ullamcorper pulvinar. Lorem ipsum dolor sit amet,
-        consectetuer adipiscing elit. Aenean id metus id velit ullamcorper
-        pulvinar. Lorem ipsum dolor sit amet, consectetuer adipiscing.
-=======
         Prijměte naše pozvání na toulky nejkrásnějšími pražskými luhy a háji.
         Prozradíme vám tajné tipy na ty nejlepší trasy procházek a přidáme pár
         dobrých rad k tomu.
->>>>>>> lucy
       </p>
       <a class="button" href="#map">Hurá na mapu</a>
     </div>
