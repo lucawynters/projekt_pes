@@ -23,7 +23,7 @@
     <router-view />
     <footer>
       <div class="text">
-        <p>Made with (dog)love by Lůca and Pauli 🤍</p>
+        <p>Made with (dog🐶) love by Lůca and Pauli 🤍</p>
         <p>with a help from Sergej</p>
         <p>
           thanks to
@@ -143,10 +143,9 @@ footer {
 }
 @media (min-width: 800px) {
   footer {
-    align-self: center;
+    align-items: center;
     display: flex;
-    justify-content: flex-start;
-    padding: 50px;
+    justify-content: space-around;
   }
   .logo {
     width: 250px;
