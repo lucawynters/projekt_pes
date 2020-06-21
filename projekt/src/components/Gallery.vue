@@ -55,10 +55,6 @@ export default {
   height: auto;
   padding: 0 10px;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> d4f9e3b05c5002e61d4240382979c7fdccde3f10
 .hooper {
   height: 45vw;
 }
