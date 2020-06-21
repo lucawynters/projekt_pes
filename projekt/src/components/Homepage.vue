@@ -59,7 +59,7 @@ export default {
     rgba(89, 188, 200, 1) 0%,
     rgba(120, 49, 146, 1) 100%
   );
-  height: 450px;
+
   justify-content: flex-end;
   padding: 50px;
 }
@@ -139,6 +139,7 @@ h2 {
 .frame {
   margin-left: auto;
   margin-right: auto;
+  max-width: 100vw;
 }
 
 @media (max-width: 499px) {

@@ -1,24 +1,28 @@
 <template>
   <div class="container">
     <header class="navbar">
-      <img class="logo" src="../assets/rsz_cover.png" />
-      <img class="logo2" src="../assets/favicon.png" />
+      <div class="first-part">
+        <img class="logo" src="../assets/rsz_cover.png" />
+        <img class="logo2" src="../assets/favicon.png" />
 
-      <nav class="navigace">
-        <router-link class="link" to="/">Mapa</router-link>
-        <router-link class="link" to="/trasa/:id">Seznam tras</router-link>
-      </nav>
-      <a
-        class="weatherwidget-io"
-        href="https://forecast7.com/cs/50d0814d44/prague/"
-        data-label_1="Praha"
-        data-label_2="Počasí"
-        data-icons="Climacons Animated"
-        data-days="3"
-        data-highcolor="#783192"
-        data-lowcolor="#59BCC8"
-        data-cloudfill="#616a6b"
-      >Praha Počasí</a>
+        <nav class="navigace">
+          <router-link class="link" to="/">Mapa</router-link>
+          <router-link class="link" to="/trasa/:id">Seznam tras</router-link>
+        </nav>
+      </div>
+      <div class="second-part">
+        <a
+          class="weatherwidget-io"
+          href="https://forecast7.com/cs/50d0814d44/prague/"
+          data-label_1="Praha"
+          data-label_2="Počasí"
+          data-icons="Climacons Animated"
+          data-days="3"
+          data-highcolor="#783192"
+          data-lowcolor="#59BCC8"
+          data-cloudfill="#616a6b"
+        >Praha Počasí</a>
+      </div>
     </header>
     <router-view />
     <footer>
@@ -62,6 +66,7 @@ html {
 
 .navbar {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
 }
@@ -81,13 +86,12 @@ a:hover {
   padding-left: 20px;
   padding-right: 20px;
 }
-
+.weatherwidget-io {
+  width: 450px;
+}
 .navigace {
   align-self: center;
   margin-right: 50px;
-}
-.weatherwidget-io {
-  width: 450px;
 }
 footer {
   height: 250px;
@@ -121,6 +125,13 @@ footer {
   .logo3 {
     display: none;
   }
+  .first-part {
+    display: flex;
+    flex-direction: row;
+  }
+  .weatherwidget-io {
+    width: 300px;
+  }
 }
 @media (min-width: 500px) and (max-width: 799px) {
   footer {
@@ -143,6 +154,9 @@ footer {
   .logo3 {
     display: none;
   }
+  .navbar {
+    padding-bottom: 20px;
+  }
 }
 @media (min-width: 800px) {
   footer {
@@ -159,6 +173,9 @@ footer {
   }
   .logo3 {
     width: 250px;
+  }
+  .navbar {
+    padding-bottom: 20px;
   }
 }
 </style>
