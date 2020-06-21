@@ -38,7 +38,6 @@
 
 <script>
 import { data } from "../data.js";
-import Gallery from "./components/Gallery.vue";
 
 export default {
   data() {
