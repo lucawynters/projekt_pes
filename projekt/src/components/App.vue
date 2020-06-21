@@ -2,6 +2,8 @@
   <div class="container">
     <header class="navbar">
       <img class="logo" src="../assets/rsz_cover.png" />
+      <img class="logo2" src="../assets/favicon.png" />
+
       <nav class="navigace">
         <router-link class="link" to="/">Mapa</router-link>
         <router-link class="link" to="/trasa/:id">Seznam tras</router-link>
@@ -21,10 +23,10 @@
     <router-view />
     <footer>
       <p>Made with (dog)love by Lůca and Pauli 🤍</p>
-      <p>help from Sergej</p>
+      <p>with a help from Sergej</p>
       <p>
         thanks to
-        <a href link="https://www.czechitas.cz/cs/kdo-jsme">Czechitas</a> 🤍
+        <a href class="czechitas" link="https://www.czechitas.cz/cs/kdo-jsme">Czechitas</a> 🤍
       </p>
     </footer>
   </div>
@@ -62,7 +64,7 @@ html {
 }
 
 .logo {
-  width: 350px;
+  /* width: auto; zmenene */
   height: auto;
   margin-left: 0;
 }
@@ -91,7 +93,10 @@ footer {
   );
   color: white;
 }
-
+.czechitas {
+  text-decoration: none;
+  color: white;
+}
 @media (max-width: 499px) {
   footer {
     display: flex;
@@ -99,6 +104,13 @@ footer {
     justify-content: center;
     align-items: center;
     font-size: 14px;
+  }
+  .logo {
+    display: none;
+  }
+  .logo2 {
+    width: auto;
+    height: 70px;
   }
 }
 @media (min-width: 500px) and (max-width: 799px) {
@@ -111,6 +123,26 @@ footer {
   }
   p {
     padding: 1px;
+  }
+  .logo {
+    display: none;
+  }
+  .logo2 {
+    width: auto;
+    height: 90px;
+  }
+}
+@media (min-width: 800px) {
+  footer {
+    display: flex;
+    justify-content: flex-start;
+    padding: 50px;
+  }
+  .logo {
+    width: 250px;
+  }
+  .logo2 {
+    display: none;
   }
 }
 </style>
