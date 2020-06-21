@@ -27,7 +27,7 @@
         <p>with help from Sergej</p>
         <p>
           thanks to
-          <a href class="czechitas" link="https://www.czechitas.cz/cs/kdo-jsme">Czechitas</a> 🤍
+          <a href="https://www.czechitas.cz/cs/kdo-jsme" class="czechitas">Czechitas</a> 🤍
         </p>
       </div>
       <img class="logo3" src="../assets/Czechitas_logo_bez_pozadi.png" />
@@ -72,6 +72,9 @@ html {
   margin-left: 0;
 }
 
+a:hover {
+  color: #e5007d;
+}
 .link {
   color: #616a6b;
   text-decoration: none;
