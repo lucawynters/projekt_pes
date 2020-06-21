@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="navbar">
+    <header class="navbar">
       <img class="logo" src="../assets/rsz_cover.png" />
       <nav class="navigace">
         <router-link class="link" to="/">Mapa</router-link>
@@ -17,12 +17,15 @@
         data-lowcolor="#59BCC8"
         data-cloudfill="#616a6b"
       >Praha Počasí</a>
-    </div>
+    </header>
     <router-view />
     <footer>
-      Made with (dog)love by Lůca and Pauli 🤍
-      <br />help from Sergej
-      <br />thanks to Czechitas 🤍
+      <p>Made with (dog)love by Lůca and Pauli 🤍</p>
+      <p>help from Sergej</p>
+      <p>
+        thanks to
+        <a href link="https://www.czechitas.cz/cs/kdo-jsme">Czechitas</a> 🤍
+      </p>
     </footer>
   </div>
 </template>
@@ -87,5 +90,27 @@ footer {
     rgba(120, 49, 146, 1) 100%
   );
   color: white;
+}
+
+@media (max-width: 499px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
+}
+@media (min-width: 500px) and (max-width: 799px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+  }
+  p {
+    padding: 1px;
+  }
 }
 </style>
