@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+<<<<<<< HEAD
     <div class="navbar">
       <img class="logo" src="../assets/rsz_cover.png" />
       <img class="logo2" src="../assets/favicon.png" />
@@ -20,6 +21,33 @@
         >Praha Počasí</a
       >
     </div>
+=======
+    <header class="navbar">
+      <div class="first-part">
+        <img class="logo" src="../assets/rsz_cover.png" />
+        <img class="logo2" src="../assets/favicon.png" />
+
+        <nav class="navigace">
+          <a href="/#map">Mapa</a>
+          <a href="/#seznam">Seznam tras</a>
+        </nav>
+      </div>
+      <div class="second-part">
+        <a
+          class="weatherwidget-io"
+          href="https://forecast7.com/cs/50d0814d44/prague/"
+          data-label_1="Praha"
+          data-label_2="Počasí"
+          data-icons="Climacons Animated"
+          data-days="3"
+          data-highcolor="#783192"
+          data-lowcolor="#59BCC8"
+          data-cloudfill="#616a6b"
+          >Praha Počasí</a
+        >
+      </div>
+    </header>
+>>>>>>> d4f9e3b05c5002e61d4240382979c7fdccde3f10
     <router-view />
     <footer>
       <div class="text">
@@ -76,7 +104,7 @@ html {
   margin-left: 0;
 }
 
-a:hover {
+.czechitas:hover {
   color: #e5007d;
 }
 .link {
@@ -85,6 +113,7 @@ a:hover {
   padding-left: 20px;
   padding-right: 20px;
 }
+
 .weatherwidget-io {
   width: 450px;
 }
@@ -156,6 +185,10 @@ footer {
   .navbar {
     padding-bottom: 20px;
   }
+  .first-part {
+    display: flex;
+    flex-direction: row;
+  }
 }
 @media (min-width: 800px) {
   footer {
@@ -175,6 +208,9 @@ footer {
   }
   .navbar {
     padding-bottom: 20px;
+  }
+  .first-part {
+    display: flex;
   }
 }
 .navigace a {

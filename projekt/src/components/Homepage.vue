@@ -88,11 +88,12 @@ h1 {
 h2 {
   align-self: center;
   text-align: center;
+  padding-top: 20px;
 }
 .about {
   color: white;
   margin-bottom: 100px;
-  width: 350px;
+  max-width: 350px;
   align-self: center;
   text-align: center;
 }
@@ -129,7 +130,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin: 50px;
+  margin: 0 50px 30px 50px;
 }
 
 .list-item a {
@@ -141,18 +142,30 @@ h2 {
 .frame {
   margin-left: auto;
   margin-right: auto;
-  max-width: 100vw;
+  max-width: 90vw;
 }
 
 @media (max-width: 499px) {
   .tracks-list {
     padding: 20px;
   }
+  h1 {
+    font-size: 30px;
+  }
 }
 
 @media (min-width: 500px) and (max-width: 799px) {
+  .about {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 30px;
+  }
 }
 
 @media (min-width: 800px) {
+  .about {
+    font-size: 25px;
+  }
 }
 </style>
