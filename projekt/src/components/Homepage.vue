@@ -23,9 +23,7 @@
         <div class="wrapper">
           <div class="list-item" v-for="track in tracks" :key="track.id">
             <router-link class="tracks-list" :to="`/trasa/${track.id}`">
-              {{
-              track.name
-              }}
+              {{ track.name }}
             </router-link>
           </div>
         </div>
@@ -48,9 +46,9 @@ export default {
   },
   data() {
     return {
-      tracks: data
+      tracks: data,
     };
-  }
+  },
 };
 </script>
 

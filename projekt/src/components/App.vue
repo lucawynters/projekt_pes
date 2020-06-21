@@ -21,7 +21,8 @@
           data-highcolor="#783192"
           data-lowcolor="#59BCC8"
           data-cloudfill="#616a6b"
-        >Praha Počasí</a>
+          >Praha Počasí</a
+        >
       </div>
     </header>
     <router-view />
@@ -31,7 +32,10 @@
         <p>with help from Sergej</p>
         <p>
           thanks to
-          <a href="https://www.czechitas.cz/cs/kdo-jsme" class="czechitas">Czechitas</a> 🤍
+          <a href="https://www.czechitas.cz/cs/kdo-jsme" class="czechitas"
+            >Czechitas</a
+          >
+          🤍
         </p>
       </div>
       <img class="logo3" src="../assets/Czechitas_logo_bez_pozadi.png" />
@@ -41,7 +45,7 @@
 
 <script>
 export default {
-  name: "App"
+  name: "App",
 };
 !(function(d, s, id) {
   var js,
@@ -77,7 +81,7 @@ html {
   margin-left: 0;
 }
 
-a:hover {
+.czechitas a:hover {
   color: #e5007d;
 }
 .link {
