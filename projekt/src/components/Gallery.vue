@@ -1,22 +1,30 @@
 <template>
   <hooper :infiniteScroll="true" :itemsToShow="3">
     <slide>
-      <img class="slider" src="/assets/cibulka.jpg" />
+      <img
+        class="slider"
+        src="/assets/cibulka.jpg"
+        title="Přírodní park Košíře-Motol"
+      />
     </slide>
     <slide>
-      <img class="slider" src="/assets/obora.jpg" />
+      <img class="slider" src="/assets/obora.jpg" title="Obora Hvězda" />
     </slide>
     <slide>
-      <img class="slider" src="/assets/klanovice.jpg" />
+      <img class="slider" src="/assets/klanovice.jpg" title="Klánovický les" />
     </slide>
     <slide>
-      <img class="slider" src="/assets/vinorsatalice.jpg" />
+      <img
+        class="slider"
+        src="/assets/vinorsatalice.jpg"
+        title="Vinořský park - Satalická bažantnice"
+      />
     </slide>
     <slide>
-      <img class="slider" src="/assets/xaverov.jpg" />
+      <img class="slider" src="/assets/xaverov.jpg" title="Xaverovský háj" />
     </slide>
     <slide>
-      <img class="slider" src="/assets/repy.jpg" />
+      <img class="slider" src="/assets/repy.jpg" tile="Lesopark Řepy-Motol" />
     </slide>
   </hooper>
 </template>

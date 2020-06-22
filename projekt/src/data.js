@@ -55,7 +55,7 @@ export const data = [
   },
   {
     id: "prokopsko-dalejske-udoli",
-    name: "Prokopsko-dalejské údolí",
+    name: "Prokopsko-Dalejské údolí",
     district: "Praha 5",
     description: "Středně velký přírodní park se rozprostírá na ploše 653 ha. Nachází se zde mnoho zvláště chráněných území. Zajímavostí jsou bohaté naleziště zkamenělin světového významu. V historii bylo území hustě osídleno. Nacházela se tu četná hradiště a dochovaly se důkazy o obydlení jeskyní.",
     transport:

@@ -2,8 +2,8 @@
   <div class="container">
     <header class="navbar">
       <div class="first-part">
-        <img class="logo" src="../assets/rsz_cover.png" />
-        <img class="logo2" src="../assets/favicon.png" />
+        <img class="logo" src="/assets/rsz_cover.png" />
+        <img class="logo2" src="/assets/favicon.png" />
 
         <nav class="navigace">
           <a href="/#map">Mapa</a>

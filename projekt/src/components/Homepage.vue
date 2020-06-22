@@ -3,7 +3,7 @@
     <div class="header">
       <h1>Prahou se psem</h1>
       <p class="about">
-        Prijměte naše pozvání na toulky nejkrásnějšími pražskými luhy a háji.
+        Přijměte naše pozvání na toulky nejkrásnějšími pražskými luhy a háji.
         Prozradíme vám tajné tipy na ty nejlepší trasy procházek a přidáme pár
         dobrých rad k tomu.
       </p>
@@ -11,15 +11,15 @@
     </div>
     <div class="mapa">
       <div id="map" class="main">
-        <h2>Toto je hlavní mapa</h2>
+        <h2>Najděte si park na mapě</h2>
         <iframe
           class="frame"
           src="https://www.google.com/maps/d/u/0/embed?mid=1EgEwwP7VEbi22zyufEuLC7sFEWcsrhOR"
           width="640"
           height="480"
         ></iframe>
-        <h2>Toto je seznam parků</h2>
-        <div id="seznam" class="wrapper">
+        <h2 id="seznam">Anebo si vyberte ze seznamu</h2>
+        <div class="wrapper">
           <div class="list-item" v-for="track in tracks" :key="track.id">
             <router-link class="tracks-list" :to="`/trasa/${track.id}`">
               {{ track.name }}
@@ -29,7 +29,7 @@
       </div>
     </div>
     <div class="seznam">
-      <h2>Toto je galerie</h2>
+      <h2>Naši testeři doporučují</h2>
       <Gallery />
     </div>
   </div>
@@ -93,9 +93,10 @@ h2 {
 .about {
   color: white;
   margin-bottom: 100px;
-  max-width: 350px;
+  max-width: 450px;
   align-self: center;
   text-align: center;
+  font-weight: lighter;
 }
 
 .mapa {
@@ -166,6 +167,7 @@ h2 {
 @media (min-width: 800px) {
   .about {
     font-size: 25px;
+    font-weight: 100;
   }
 }
 </style>
