@@ -6,8 +6,8 @@
         <img class="logo2" src="/assets/favicon.png" />
 
         <nav class="navigace">
-          <a href="/#map" v-smooth-scroll>Mapa</a>
-          <a href="/#seznam" v-smooth-scroll>Seznam tras</a>
+          <a href="/#map">Mapa</a>
+          <a href="/#seznam">Seznam tras</a>
         </nav>
       </div>
       <div class="second-part">

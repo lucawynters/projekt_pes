@@ -112,7 +112,7 @@ export const data = [
   },
   {
     id: "dablicky-haj",
-    name: "Dáblický háj",
+    name: "Ďáblický háj",
     district: "Praha 9",
     description: "Už vás někdo někdy poslal do háje? No super. Ideální příležitost navštívit ten ďáblický. (Pokud vás navíc poslali i k čertu, máte zabité dvě mouchy jednou ranou). A že to tam navíc není vůbec špatné se přesvědčíte vy i váš pes. Před 98 miliony let byste se tu mohli dokonce vykoupat v moři. Dnes už si přijdou na své spíš milovníci kopců. Najdete tu totiž vrch Ládví, který jeho 359 m. n. m. činí nevyšším vrcholem Prahy. A na něm taky geodetickou věžičku, ze které by se časem měla stát rozhledna. Zajímavostí je, že vrch byl pravděpodobně v dávných dobách mystickým a posvátným místem. Navzdory hustému osídlení v okolí (už z dob pravěku), se totiž přímo na kopci nenalezly vůbec žádné známky lidských obydí. Skrze háj vede žlutá a zelená turistická trasa.",
     transport: `<span aria-label="autobus" title="autobus">🚌</span> Bojasova / Květnová <br>
