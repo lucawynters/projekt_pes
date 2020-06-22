@@ -7,7 +7,7 @@
         Prozradíme vám tajné tipy na ty nejlepší trasy procházek a přidáme pár
         dobrých rad k tomu.
       </p>
-      <a class="button" href="#map">Hurá na mapu</a>
+      <a class="button" href="#map" v-smooth-scroll>Hurá na mapu</a>
     </div>
     <div class="mapa">
       <div id="map" class="main">
@@ -79,6 +79,9 @@ export default {
   align-self: center;
   text-decoration: none;
 }
+.button:hover {
+  color: rgba(120, 49, 146, 1);
+}
 h1 {
   color: white;
   font-size: 60px;
@@ -116,6 +119,9 @@ h2 {
 }
 .tracks-list {
   text-decoration: none;
+}
+.list-item:hover {
+  background-color: rgba(120, 49, 146, 1);
 }
 .list-item {
   padding: 7px 15px;

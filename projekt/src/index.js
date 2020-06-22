@@ -1,6 +1,8 @@
 import Vue from 'vue';
-import VueRouter from 'vue-router'
-import VueAgile from 'vue-agile'
+import VueRouter from 'vue-router';
+import VueAgile from 'vue-agile';
+import vueSmoothScroll from 'vue-smooth-scroll';
+
 
 import Page1 from './components/Page1.vue';
 
@@ -10,6 +12,7 @@ import './index.html';
 
 Vue.use(VueRouter);
 Vue.use(VueAgile);
+Vue.use(vueSmoothScroll);
 
 const router = new VueRouter({
   mode: 'history',

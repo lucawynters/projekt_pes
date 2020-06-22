@@ -11,7 +11,7 @@
       <img class="slider" src="/assets/obora.jpg" title="Obora Hvězda" />
     </slide>
     <slide>
-      <img class="slider" src="/assets/klanovice.jpg" title="Klánovický les" />
+      <img class="slider" src="/assets/petrin.jpg" title="Petřínské sady" />
     </slide>
     <slide>
       <img
@@ -24,7 +24,7 @@
       <img class="slider" src="/assets/xaverov.jpg" title="Xaverovský háj" />
     </slide>
     <slide>
-      <img class="slider" src="/assets/repy.jpg" tile="Lesopark Řepy-Motol" />
+      <img class="slider" src="/assets/repy.jpg" title="Lesopark Řepy-Motol" />
     </slide>
   </hooper>
 </template>
