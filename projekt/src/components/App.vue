@@ -2,7 +2,7 @@
   <div class="container">
     <header class="navbar">
       <div class="first-part">
-        <img class="logo" src="/assets/rsz_cover.png" />
+        <a href="/"> <img class="logo" src="/assets/rsz_cover.png" /> </a>
         <img class="logo2" src="/assets/favicon.png" />
 
         <nav class="navigace">
