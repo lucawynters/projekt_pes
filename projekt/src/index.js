@@ -13,6 +13,9 @@ Vue.use(VueAgile);
 
 const router = new VueRouter({
   mode: 'history',
+  scrollBehavior(to, from, savedPosition) {
+    return { x: 0, y: 0 }
+  },
   routes: [
     { path: '/', component: Homepage },
     { path: '/trasa/:id', component: Page1 },
