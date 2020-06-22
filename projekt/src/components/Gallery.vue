@@ -8,23 +8,36 @@
       />
     </slide>
     <slide>
-      <img class="slider" src="/assets/obora.jpg" title="Obora Hvězda" />
+      <a href="/trasa/obora-hvezda">
+        <img class="slider" src="/assets/obora.jpg" title="Obora Hvězda" />
+      </a>
     </slide>
     <slide>
-      <img class="slider" src="/assets/petrin.jpg" title="Petřínské sady" />
+      <a href="/trasa/petrinske-sady">
+        <img class="slider" src="/assets/petrin.jpg" title="Petřínské sady"
+      /></a>
     </slide>
     <slide>
-      <img
-        class="slider"
-        src="/assets/vinorsatalice.jpg"
-        title="Vinořský park - Satalická bažantnice"
-      />
+      <a href="/trasa/vinor-satalice">
+        <img
+          class="slider"
+          src="/assets/vinorsatalice.jpg"
+          title="Vinořský park - Satalická bažantnice"
+      /></a>
     </slide>
     <slide>
-      <img class="slider" src="/assets/xaverov.jpg" title="Xaverovský háj" />
+      <a href="/trasa/xaverovsky-haj">
+        <img class="slider" src="/assets/xaverov.jpg" title="Xaverovský háj" />
+      </a>
     </slide>
     <slide>
-      <img class="slider" src="/assets/repy.jpg" title="Lesopark Řepy-Motol" />
+      <a href="/trasa/repy-motol">
+        <img
+          class="slider"
+          src="/assets/repy.jpg"
+          title="Lesopark Řepy-Motol"
+        />
+      </a>
     </slide>
   </hooper>
 </template>

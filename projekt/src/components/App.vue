@@ -32,13 +32,18 @@
         <p>with help from Sergej</p>
         <p>
           thanks to
-          <a href="https://www.czechitas.cz/cs/kdo-jsme" class="czechitas"
+          <a
+            href="https://www.czechitas.cz/cs/kdo-jsme"
+            class="czechitas"
+            target="_blank"
             >Czechitas</a
           >
           🤍
         </p>
       </div>
-      <img class="logo3" src="../assets/Czechitas_logo_bez_pozadi.png" />
+      <a href="https://www.czechitas.cz/cs/kdo-jsme" target="_blank">
+        <img class="logo3" src="../assets/Czechitas_logo_bez_pozadi.png" />
+      </a>
     </footer>
   </div>
 </template>
