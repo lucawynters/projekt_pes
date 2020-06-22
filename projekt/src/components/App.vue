@@ -2,12 +2,12 @@
   <div class="container">
     <header class="navbar">
       <div class="first-part">
-        <img class="logo" src="../assets/rsz_cover.png" />
-        <img class="logo2" src="../assets/favicon.png" />
+        <a href="/"> <img class="logo" src="/assets/rsz_cover.png" /> </a>
+        <img class="logo2" src="/assets/favicon.png" />
 
         <nav class="navigace">
-          <a href="/#map">Mapa</a>
-          <a href="/#seznam">Seznam tras</a>
+          <a href="/#map" v-smooth-scroll>Mapa</a>
+          <a href="/#seznam" v-smooth-scroll>Seznam tras</a>
         </nav>
       </div>
       <div class="second-part">
@@ -32,13 +32,18 @@
         <p>with help from Sergej</p>
         <p>
           thanks to
-          <a href="https://www.czechitas.cz/cs/kdo-jsme" class="czechitas"
+          <a
+            href="https://www.czechitas.cz/cs/kdo-jsme"
+            class="czechitas"
+            target="_blank"
             >Czechitas</a
           >
           🤍
         </p>
       </div>
-      <img class="logo3" src="../assets/Czechitas_logo_bez_pozadi.png" />
+      <a href="https://www.czechitas.cz/cs/kdo-jsme" target="_blank">
+        <img class="logo3" src="../assets/Czechitas_logo_bez_pozadi.png" />
+      </a>
     </footer>
   </div>
 </template>
